@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftCalculator' do
+
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end
