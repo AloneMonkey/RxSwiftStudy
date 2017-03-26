@@ -9,9 +9,9 @@
 import RxSwift
 
 class LoginViewModel {
-    let validatedUsername: Observable<Bool>
-    let validatedPassword: Observable<Bool>
-    let validatedPasswordRepeated: Observable<Bool>
+    let validatedUsername: Observable<ValidationResult>
+    let validatedPassword: Observable<ValidationResult>
+    let validatedPasswordRepeated: Observable<ValidationResult>
     
     init(input:(
         username: Observable<String>,
@@ -22,26 +22,25 @@ class LoginViewModel {
         
         validatedUsername = input.username.map{
             username in
-            print(username)
-            return username == "" ? false : true
+            return username == "" ? .empty : .ok(message: "验证通过")
         }.shareReplay(1)
         
         validatedPassword = input.password.map{
             password in
-            return password == "" ? false : true
-        }
+            return password == "" ? .empty : .ok(message: "验证通过")
+        }.shareReplay(1)
         
         validatedPasswordRepeated = Observable.combineLatest(input.password, input.repeatedPassword){
             password, repeatedPassword in
             if repeatedPassword == ""{
-                return false
+                return .empty
             }
             
             if password != repeatedPassword{
-                return false
+                return .failed(message:"两次输入的密码不一致")
             }
             
-            return true
-        }
+            return .ok(message: "验证通过")
+        }.shareReplay(1)
     }
 }

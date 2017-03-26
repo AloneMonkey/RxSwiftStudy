@@ -36,33 +36,17 @@ class LoginViewController: UIViewController {
             registerTap: register.rx.tap.asObservable()
         ))
         
-        viewModel.validatedUsername.subscribe(
-            onNext:{
-                valid in
-                print("username is \(valid)")
-            }
-        ).disposed(by: disposed)
+        viewModel.validatedUsername
+            .bindTo(usernameValidation.rx.validationResult)
+            .disposed(by: disposed)
         
-        viewModel.validatedUsername.subscribe(
-            onNext:{
-                valid in
-                print("username 2 is \(valid)")
-            }
-        ).disposed(by: disposed)
+        viewModel.validatedPassword
+            .bindTo(passwordValidation.rx.validationResult)
+            .disposed(by: disposed)
         
-        viewModel.validatedPassword.subscribe(
-            onNext:{
-                valid in
-                print("password is \(valid)")
-            }
-        ).disposed(by: disposed)
-        
-        viewModel.validatedPasswordRepeated.subscribe(
-            onNext:{
-                valid in
-                print("repoatedPassword is \(valid)")
-            }
-        ).disposed(by: disposed)
+        viewModel.validatedPasswordRepeated
+            .bindTo(repeatedPasswordValidation.rx.validationResult)
+            .disposed(by: disposed)
         
     }
 

@@ -14,6 +14,7 @@
 		8C5601B01E87EFE8006914CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5601AE1E87EFE8006914CF /* LaunchScreen.storyboard */; };
 		8C5601BA1E87FC7F006914CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601B91E87FC7F006914CF /* LoginViewController.swift */; };
 		8C5601BC1E87FD3D006914CF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */; };
+		8C9D3B241E8821B4009470F0 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D3B231E8821B4009470F0 /* ValidationResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		8C5601B11E87EFE8006914CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8C5601B91E87FC7F006914CF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
 		8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
+		8C9D3B231E8821B4009470F0 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidationResult.swift; path = Model/ValidationResult.swift; sourceTree = "<group>"; };
 		A500396C63B4252B52A6C758 /* Pods-RxSwiftRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRegister.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftRegister/Pods-RxSwiftRegister.debug.xcconfig"; sourceTree = "<group>"; };
 		C13E8898E9782A770E989D8A /* Pods-RxSwiftRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRegister.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftRegister/Pods-RxSwiftRegister.release.xcconfig"; sourceTree = "<group>"; };
 		DD563F892017AB7CC968EE45 /* Pods_RxSwiftRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,6 +82,7 @@
 		8C5601A41E87EFE8006914CF /* RxSwiftRegister */ = {
 			isa = PBXGroup;
 			children = (
+				8C9D3B221E88219D009470F0 /* Model */,
 				8C5601B81E87FC5A006914CF /* ViewModel */,
 				8C5601B71E87FC54006914CF /* Controller */,
 				8C5601A51E87EFE8006914CF /* AppDelegate.swift */,
@@ -105,6 +108,14 @@
 				8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */,
 			);
 			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		8C9D3B221E88219D009470F0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8C9D3B231E8821B4009470F0 /* ValidationResult.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 				8C5601BA1E87FC7F006914CF /* LoginViewController.swift in Sources */,
 				8C5601A61E87EFE8006914CF /* AppDelegate.swift in Sources */,
 				8C5601BC1E87FD3D006914CF /* LoginViewModel.swift in Sources */,
+				8C9D3B241E8821B4009470F0 /* ValidationResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +413,7 @@
 				8C5601B61E87EFE8006914CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
