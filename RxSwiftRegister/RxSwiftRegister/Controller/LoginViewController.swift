@@ -36,6 +36,10 @@ class LoginViewController: UIViewController {
             registerTap: register.rx.tap.asObservable()
         ))
         
+        register.rx.tap.asObservable()
+            .bindTo(viewModel.registerTap)
+            .disposed(by: disposeBag)
+        
         viewModel.validatedUsername
             .bindTo(usernameValidation.rx.validationResult)
             .disposed(by: disposeBag)
@@ -50,10 +54,7 @@ class LoginViewController: UIViewController {
         
         viewModel.registerEnabled.subscribe(
             onNext:{
-                [weak self] valid in
-                guard let `self` = self else{
-                    return
-                }
+                [unowned self] valid in
                 self.register.isEnabled = valid
                 self.register.alpha = valid ? 1.0 : 0.5
             }
@@ -73,14 +74,29 @@ class LoginViewController: UIViewController {
         //点击背景收起键盘
         let tapBackground = UITapGestureRecognizer()
         tapBackground.rx.event
-            .subscribe(onNext: { [weak self] _ in
-                guard let `self` = self else{
-                    return
-                }
+            .subscribe(onNext: { [unowned self] _ in
                 self.view.endEditing(true)
             })
             .disposed(by: disposeBag)
         view.addGestureRecognizer(tapBackground)
+        
+        username.rx.controlEvent(.editingDidEnd)
+            .subscribe{
+                [unowned self] _ in
+                self.password.becomeFirstResponder()
+            }
+            .disposed(by: disposeBag)
+        
+        password.rx.controlEvent(.editingDidEnd)
+            .subscribe{
+                [unowned self] _ in
+                self.repoatedPassword.becomeFirstResponder()
+            }
+            .disposed(by: disposeBag)
+        
+        repoatedPassword.rx.controlEvent(.editingDidEnd)
+            .bindTo(viewModel.registerTap)
+            .disposed(by: disposeBag)
     }
     
     

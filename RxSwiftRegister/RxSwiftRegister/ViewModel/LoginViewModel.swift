@@ -17,6 +17,8 @@ class LoginViewModel {
     let registered: Observable<Bool>
     let registering: Observable<Bool>
     
+    let registerTap = Variable<Void>()
+    
     init(input:(
         username: Observable<String>,
         password: Observable<String>,
@@ -104,7 +106,7 @@ class LoginViewModel {
         let usernameAndPassword = Observable.combineLatest(input.username, input.password) { ($0, $1) }
         
         //合并注册点击和账号密码序列，每次注册点击，从第二个序列取最新的值
-        registered = input.registerTap.withLatestFrom(usernameAndPassword)
+        registered = self.registerTap.asObservable().withLatestFrom(usernameAndPassword)
             .flatMapLatest{
                 (username, password) in
                 return API.register(username, password: password)
