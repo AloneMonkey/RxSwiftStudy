@@ -13,6 +13,8 @@ class LoginViewModel {
     let validatedPassword: Observable<ValidationResult>
     let validatedPasswordRepeated: Observable<ValidationResult>
     
+    let registerEnabled: Observable<Bool>
+    
     init(input:(
         username: Observable<String>,
         password: Observable<String>,
@@ -42,5 +44,14 @@ class LoginViewModel {
             
             return .ok(message: "验证通过")
         }.shareReplay(1)
+        
+        registerEnabled = Observable.combineLatest(validatedUsername, validatedPassword, validatedPasswordRepeated){
+            username, password, repeatedPassword in
+            username.isValid &&
+            password.isValid &&
+            repeatedPassword.isValid
+            }
+            .distinctUntilChanged()
+            .shareReplay(1)
     }
 }

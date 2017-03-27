@@ -52,6 +52,17 @@ extension ValidationResult {
     }
 }
 
+extension ValidationResult {
+    var isValid: Bool {
+        switch self {
+        case .ok:
+            return true
+        default:
+            return false
+        }
+    }
+}
+
 extension Reactive where Base: UILabel {
     var validationResult: UIBindingObserver<Base, ValidationResult> {
         return UIBindingObserver(UIElement: base) { label, result in

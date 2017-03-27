@@ -24,7 +24,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var registerIndicator: UIActivityIndicatorView!
     @IBOutlet weak var register: UIButton!
     
-    let disposed = DisposeBag()
+    let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,23 +38,29 @@ class LoginViewController: UIViewController {
         
         viewModel.validatedUsername
             .bindTo(usernameValidation.rx.validationResult)
-            .disposed(by: disposed)
+            .disposed(by: disposeBag)
         
         viewModel.validatedPassword
             .bindTo(passwordValidation.rx.validationResult)
-            .disposed(by: disposed)
+            .disposed(by: disposeBag)
         
         viewModel.validatedPasswordRepeated
             .bindTo(repeatedPasswordValidation.rx.validationResult)
-            .disposed(by: disposed)
+            .disposed(by: disposeBag)
+        
+        viewModel.registerEnabled.subscribe(
+            onNext:{
+                [weak self] valid in
+                guard let `self` = self else{
+                    return
+                }
+                self.register.isEnabled = valid
+                self.register.alpha = valid ? 1.0 : 0.5
+            }
+        ).disposed(by: disposeBag)
         
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        
-    }
-
-
+    
+    
 }
 
