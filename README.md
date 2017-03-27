@@ -9,4 +9,6 @@
 
 * [RxSwift学习之旅 - 加法运算](http://www.alonemonkey.com/2017/03/25/rxswift-part-four/)
 
+* [RxSwift学习之旅 - 用户注册](http://www.alonemonkey.com/2017/03/27/rxswift-part-five/)
+
 更新中......
