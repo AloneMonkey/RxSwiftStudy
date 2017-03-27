@@ -59,6 +59,28 @@ class LoginViewController: UIViewController {
             }
         ).disposed(by: disposeBag)
         
+        viewModel.registering
+            .bindTo(registerIndicator.rx.isAnimating)
+            .disposed(by: disposeBag)
+        
+        viewModel.registered.subscribe(
+            onNext:{
+                registered in
+                print("User register is \(registered)")
+            }
+        ).disposed(by: disposeBag)
+        
+        //点击背景收起键盘
+        let tapBackground = UITapGestureRecognizer()
+        tapBackground.rx.event
+            .subscribe(onNext: { [weak self] _ in
+                guard let `self` = self else{
+                    return
+                }
+                self.view.endEditing(true)
+            })
+            .disposed(by: disposeBag)
+        view.addGestureRecognizer(tapBackground)
     }
     
     
