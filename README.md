@@ -11,4 +11,6 @@
 
 * [RxSwift学习之旅 - 用户注册](http://www.alonemonkey.com/2017/03/27/rxswift-part-five/)
 
+* [RxSwift学习之旅 - Observable 和 Driver](http://www.alonemonkey.com/2017/03/28/rxswift-part-six/)
+
 更新中......
