@@ -1,0 +1,179 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SerialDisposable"
+provides-nominal:
+- "C7RxSwift16SerialDisposable"
+provides-member:
+- ["C7RxSwift16SerialDisposable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "BooleanLiteralType"
+- "DisposeBase"
+- "Cancelable"
+- "SpinLock"
+- "Disposable"
+- "CastingPrecedence"
+- !private "AssignmentPrecedence"
+- "Bool"
+- "SerialDisposable"
+depends-member:
+- ["Ps9AnyObject", "SpinLock"]
+- ["Ps9AnyObject", "_current"]
+- ["Ps9AnyObject", "_dispose"]
+- ["Ps9AnyObject", "_isDisposed"]
+- ["Ps9AnyObject", "_lock"]
+- !private ["Ps9AnyObject", "calculateLocked"]
+- ["Ps9AnyObject", "disposable"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "lock"]
+- !private ["Ps9AnyObject", "unlock"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "calculateLocked"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "lock"]
+- !private ["Ps7CVarArg", "unlock"]
+- ["P7RxSwift10Cancelable", "SpinLock"]
+- !private ["P7RxSwift10Cancelable", "_current"]
+- !private ["P7RxSwift10Cancelable", "_dispose"]
+- !private ["P7RxSwift10Cancelable", "_isDisposed"]
+- !private ["P7RxSwift10Cancelable", "_lock"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "isDisposed"]
+- ["P7RxSwift10Cancelable", ""]
+- !private ["Ps28CustomDebugStringConvertible", "calculateLocked"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "lock"]
+- !private ["Ps28CustomDebugStringConvertible", "unlock"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "calculateLocked"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "lock"]
+- !private ["Ps23CustomStringConvertible", "unlock"]
+- ["P7RxSwift10Disposable", "SpinLock"]
+- !private ["P7RxSwift10Disposable", "_current"]
+- !private ["P7RxSwift10Disposable", "_dispose"]
+- !private ["P7RxSwift10Disposable", "_isDisposed"]
+- !private ["P7RxSwift10Disposable", "_lock"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "isDisposed"]
+- ["P7RxSwift10Disposable", ""]
+- ["C7RxSwift11DisposeBase", "Bool"]
+- ["C7RxSwift11DisposeBase", "Disposable"]
+- ["C7RxSwift11DisposeBase", "SpinLock"]
+- ["C7RxSwift11DisposeBase", "_current"]
+- ["C7RxSwift11DisposeBase", "_dispose"]
+- ["C7RxSwift11DisposeBase", "_isDisposed"]
+- ["C7RxSwift11DisposeBase", "_lock"]
+- ["C7RxSwift11DisposeBase", "deinit"]
+- ["C7RxSwift11DisposeBase", "disposable"]
+- ["C7RxSwift11DisposeBase", "dispose"]
+- ["C7RxSwift11DisposeBase", "init"]
+- ["C7RxSwift11DisposeBase", "isDisposed"]
+- ["C7RxSwift11DisposeBase", ""]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "calculateLocked"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "lock"]
+- !private ["Ps9Equatable", "unlock"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "calculateLocked"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "lock"]
+- !private ["Ps8Hashable", "unlock"]
+- !private ["P7RxSwift4Lock", "calculateLocked"]
+- ["P7RxSwift4Lock", "init"]
+- !private ["P7RxSwift4Lock", "lock"]
+- !private ["P7RxSwift4Lock", "unlock"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo9NSLocking", "calculateLocked"]
+- ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "lock"]
+- !private ["PSo9NSLocking", "unlock"]
+- !private ["CSo8NSObject", "calculateLocked"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "lock"]
+- !private ["CSo8NSObject", "unlock"]
+- !private ["PSo16NSObjectProtocol", "calculateLocked"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "lock"]
+- !private ["PSo16NSObjectProtocol", "unlock"]
+- !private ["CSo15NSRecursiveLock", "calculateLocked"]
+- ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "init"]
+- !private ["CSo15NSRecursiveLock", "lock"]
+- !private ["CSo15NSRecursiveLock", "unlock"]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "calculateLocked"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "lock"]
+- !private ["P7RxSwift18ReactiveCompatible", "unlock"]
+- ["C7RxSwift16SerialDisposable", "Bool"]
+- ["C7RxSwift16SerialDisposable", "Disposable"]
+- ["C7RxSwift16SerialDisposable", "SpinLock"]
+- !private ["C7RxSwift16SerialDisposable", "_current"]
+- !private ["C7RxSwift16SerialDisposable", "_dispose"]
+- !private ["C7RxSwift16SerialDisposable", "_isDisposed"]
+- !private ["C7RxSwift16SerialDisposable", "_lock"]
+- ["C7RxSwift16SerialDisposable", "deinit"]
+- ["C7RxSwift16SerialDisposable", "disposable"]
+- ["C7RxSwift16SerialDisposable", "dispose"]
+- ["C7RxSwift16SerialDisposable", "init"]
+- ["C7RxSwift16SerialDisposable", "isDisposed"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "calculateLocked"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "lock"]
+- !private ["Ps9_Hashable", "unlock"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps8Hashable"
+- "P7RxSwift4Lock"
+- !private "Ps25LosslessStringConvertible"
+- "PSo9NSLocking"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxSwift16SerialDisposable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "c06d94ac227470768ef62a1e30e3b417"

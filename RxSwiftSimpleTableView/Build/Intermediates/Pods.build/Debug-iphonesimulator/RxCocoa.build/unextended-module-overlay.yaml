@@ -1,0 +1,13 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': '/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules'
+    'contents': [{
+      'type': 'file',
+      'name': 'module.modulemap',
+      'external-contents': '/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap',
+    }]
+  }]
+}

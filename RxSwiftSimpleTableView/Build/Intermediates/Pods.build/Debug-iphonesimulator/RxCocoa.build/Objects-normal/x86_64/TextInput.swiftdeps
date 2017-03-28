@@ -1,0 +1,66 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TextInput"
+provides-nominal:
+- "V7RxCocoa9TextInput"
+provides-member:
+- ["V7RxCocoa9TextInput", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "textInput"]
+- ["V7RxSwift8Reactive", "textInput"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UITextInput"
+- "TextInput"
+- "Reactive"
+- "String"
+- "UITextView"
+- "AssignmentPrecedence"
+- "ControlProperty"
+- "UITextField"
+depends-member:
+- ["V7RxCocoa15ControlProperty", "deinit"]
+- ["V7RxSwift8Reactive", "Base"]
+- ["V7RxSwift8Reactive", "TextInput"]
+- ["V7RxSwift8Reactive", "UITextField"]
+- ["V7RxSwift8Reactive", "UITextView"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "deinit"]
+- !private ["V7RxSwift8Reactive", "text"]
+- ["V7RxSwift8Reactive", "textInput"]
+- ["V7RxCocoa9TextInput", "Base"]
+- ["V7RxCocoa9TextInput", "ControlProperty"]
+- ["V7RxCocoa9TextInput", "String"]
+- ["V7RxCocoa9TextInput", "base"]
+- ["V7RxCocoa9TextInput", "deinit"]
+- ["V7RxCocoa9TextInput", "init"]
+- ["V7RxCocoa9TextInput", "text"]
+depends-nominal:
+- "V7RxCocoa15ControlProperty"
+- "V7RxSwift8Reactive"
+- "V7RxCocoa9TextInput"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "a96238935070071fae06483e16f9ace1"

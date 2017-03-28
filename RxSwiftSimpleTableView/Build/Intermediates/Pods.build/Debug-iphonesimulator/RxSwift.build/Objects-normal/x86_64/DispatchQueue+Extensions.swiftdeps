@@ -1,0 +1,148 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo13DispatchQueue", ""]
+- ["CSo13DispatchQueue", "isMain"]
+provides-dynamic-lookup:
+depends-top-level:
+- "DispatchQueue"
+- "Bool"
+- !private "!="
+- "DispatchSpecificKey"
+depends-member:
+- ["Ps9AnyObject", "DispatchQueue"]
+- ["Ps9AnyObject", "DispatchSpecificKey"]
+- !private ["Ps9AnyObject", "getSpecific"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isMain"]
+- ["Ps9AnyObject", "main"]
+- ["Ps9AnyObject", "setSpecific"]
+- ["Ps9AnyObject", "token"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "DispatchQueue"]
+- ["Ps7CVarArg", "DispatchSpecificKey"]
+- !private ["Ps7CVarArg", "getSpecific"]
+- ["Ps7CVarArg", "isMain"]
+- ["Ps7CVarArg", "main"]
+- ["Ps7CVarArg", "setSpecific"]
+- ["Ps7CVarArg", "token"]
+- ["Ps28CustomDebugStringConvertible", "DispatchQueue"]
+- ["Ps28CustomDebugStringConvertible", "DispatchSpecificKey"]
+- !private ["Ps28CustomDebugStringConvertible", "getSpecific"]
+- ["Ps28CustomDebugStringConvertible", "isMain"]
+- ["Ps28CustomDebugStringConvertible", "main"]
+- ["Ps28CustomDebugStringConvertible", "setSpecific"]
+- ["Ps28CustomDebugStringConvertible", "token"]
+- ["Ps23CustomStringConvertible", "DispatchQueue"]
+- ["Ps23CustomStringConvertible", "DispatchSpecificKey"]
+- !private ["Ps23CustomStringConvertible", "getSpecific"]
+- ["Ps23CustomStringConvertible", "isMain"]
+- ["Ps23CustomStringConvertible", "main"]
+- ["Ps23CustomStringConvertible", "setSpecific"]
+- ["Ps23CustomStringConvertible", "token"]
+- ["CSo14DispatchObject", "Bool"]
+- ["CSo14DispatchObject", "DispatchQueue"]
+- ["CSo14DispatchObject", "DispatchSpecificKey"]
+- !private ["CSo14DispatchObject", "getSpecific"]
+- ["CSo14DispatchObject", "isMain"]
+- ["CSo14DispatchObject", "main"]
+- ["CSo14DispatchObject", "setSpecific"]
+- ["CSo14DispatchObject", "token"]
+- ["CSo13DispatchQueue", "Bool"]
+- ["CSo13DispatchQueue", "DispatchQueue"]
+- ["CSo13DispatchQueue", "DispatchSpecificKey"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "getSpecific"]
+- ["CSo13DispatchQueue", "isMain"]
+- ["CSo13DispatchQueue", "main"]
+- ["CSo13DispatchQueue", "setSpecific"]
+- !private ["CSo13DispatchQueue", "token"]
+- ["C8Dispatch19DispatchSpecificKey", "deinit"]
+- ["C8Dispatch19DispatchSpecificKey", "init"]
+- ["Ps9Equatable", "DispatchQueue"]
+- ["Ps9Equatable", "DispatchSpecificKey"]
+- !private ["Ps9Equatable", "getSpecific"]
+- ["Ps9Equatable", "isMain"]
+- ["Ps9Equatable", "main"]
+- ["Ps9Equatable", "setSpecific"]
+- ["Ps9Equatable", "token"]
+- ["Ps8Hashable", "DispatchQueue"]
+- ["Ps8Hashable", "DispatchSpecificKey"]
+- !private ["Ps8Hashable", "getSpecific"]
+- ["Ps8Hashable", "isMain"]
+- ["Ps8Hashable", "main"]
+- ["Ps8Hashable", "setSpecific"]
+- ["Ps8Hashable", "token"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "DispatchQueue"]
+- ["CSo8NSObject", "DispatchSpecificKey"]
+- !private ["CSo8NSObject", "getSpecific"]
+- ["CSo8NSObject", "isMain"]
+- ["CSo8NSObject", "main"]
+- ["CSo8NSObject", "setSpecific"]
+- ["CSo8NSObject", "token"]
+- ["PSo16NSObjectProtocol", "DispatchQueue"]
+- ["PSo16NSObjectProtocol", "DispatchSpecificKey"]
+- !private ["PSo16NSObjectProtocol", "getSpecific"]
+- ["PSo16NSObjectProtocol", "isMain"]
+- ["PSo16NSObjectProtocol", "main"]
+- ["PSo16NSObjectProtocol", "setSpecific"]
+- ["PSo16NSObjectProtocol", "token"]
+- ["CSo9OS_object", "Bool"]
+- ["CSo9OS_object", "DispatchQueue"]
+- ["CSo9OS_object", "DispatchSpecificKey"]
+- !private ["CSo9OS_object", "getSpecific"]
+- ["CSo9OS_object", "isMain"]
+- ["CSo9OS_object", "main"]
+- ["CSo9OS_object", "setSpecific"]
+- ["CSo9OS_object", "token"]
+- ["Sq", "deinit"]
+- ["P7RxSwift18ReactiveCompatible", "DispatchQueue"]
+- ["P7RxSwift18ReactiveCompatible", "DispatchSpecificKey"]
+- !private ["P7RxSwift18ReactiveCompatible", "getSpecific"]
+- ["P7RxSwift18ReactiveCompatible", "isMain"]
+- ["P7RxSwift18ReactiveCompatible", "main"]
+- ["P7RxSwift18ReactiveCompatible", "setSpecific"]
+- ["P7RxSwift18ReactiveCompatible", "token"]
+- ["Ps9_Hashable", "DispatchQueue"]
+- ["Ps9_Hashable", "DispatchSpecificKey"]
+- !private ["Ps9_Hashable", "getSpecific"]
+- ["Ps9_Hashable", "isMain"]
+- ["Ps9_Hashable", "main"]
+- ["Ps9_Hashable", "setSpecific"]
+- ["Ps9_Hashable", "token"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "CSo14DispatchObject"
+- "CSo13DispatchQueue"
+- "C8Dispatch19DispatchSpecificKey"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo9OS_object"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "Ps9_Hashable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "fc0abe30f4fcb47d567d1dfab7629ae1"

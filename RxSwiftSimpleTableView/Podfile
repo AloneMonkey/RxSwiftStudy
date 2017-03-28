@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftSimpleTableView' do
+
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end

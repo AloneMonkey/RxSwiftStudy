@@ -1,0 +1,130 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "OperationQueueScheduler"
+provides-nominal:
+- "C7RxSwift23OperationQueueScheduler"
+provides-member:
+- ["C7RxSwift23OperationQueueScheduler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "OperationQueueScheduler"
+- !private "BlockOperation"
+- !private "SingleAssignmentDisposable"
+- "Disposable"
+- "OperationQueue"
+- "ImmediateSchedulerType"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "BlockOperation"]
+- !private ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- !private ["Ps9AnyObject", "addOperation"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "operationQueue"]
+- ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "setDisposable"]
+- ["Ps9AnyObject", ""]
+- ["CSo14BlockOperation", "deinit"]
+- !private ["CSo14BlockOperation", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "addOperation"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "isDisposed"]
+- !private ["P7RxSwift10Cancelable", "setDisposable"]
+- !private ["Ps28CustomDebugStringConvertible", "addOperation"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addOperation"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "isDisposed"]
+- !private ["P7RxSwift10Disposable", "setDisposable"]
+- !private ["C7RxSwift11DisposeBase", "init"]
+- !private ["C7RxSwift11DisposeBase", "isDisposed"]
+- !private ["C7RxSwift11DisposeBase", "setDisposable"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addOperation"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addOperation"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "BlockOperation"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "SingleAssignmentDisposable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "operationQueue"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["CSo8NSObject", "addOperation"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "addOperation"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["CSo9Operation", "init"]
+- !private ["CSo14OperationQueue", "addOperation"]
+- ["CSo14OperationQueue", "deinit"]
+- !private ["C7RxSwift23OperationQueueScheduler", "BlockOperation"]
+- ["C7RxSwift23OperationQueueScheduler", "Disposable"]
+- ["C7RxSwift23OperationQueueScheduler", "OperationQueue"]
+- !private ["C7RxSwift23OperationQueueScheduler", "SingleAssignmentDisposable"]
+- ["C7RxSwift23OperationQueueScheduler", "deinit"]
+- ["C7RxSwift23OperationQueueScheduler", "init"]
+- ["C7RxSwift23OperationQueueScheduler", "operationQueue"]
+- ["C7RxSwift23OperationQueueScheduler", "schedule"]
+- !private ["P7RxSwift18ReactiveCompatible", "addOperation"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "isDisposed"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "setDisposable"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addOperation"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- "CSo14BlockOperation"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "P7RxSwift10Cancelable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P7RxSwift10Disposable"
+- !private "C7RxSwift11DisposeBase"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "Ps25LosslessStringConvertible"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "CSo9Operation"
+- "CSo14OperationQueue"
+- "C7RxSwift23OperationQueueScheduler"
+- !private "P7RxSwift18ReactiveCompatible"
+- "C7RxSwift26SingleAssignmentDisposable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "50912c41ebdcc5b99b1896a8f5aecd49"

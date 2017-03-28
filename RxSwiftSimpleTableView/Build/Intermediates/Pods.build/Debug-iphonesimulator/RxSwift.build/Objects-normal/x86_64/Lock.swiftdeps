@@ -1,0 +1,110 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Lock"
+- "SpinLock"
+provides-nominal:
+- "P7RxSwift4Lock"
+- "CSo15NSRecursiveLock"
+provides-member:
+- ["P7RxSwift4Lock", ""]
+- ["CSo15NSRecursiveLock", ""]
+provides-dynamic-lookup:
+- "performLocked"
+depends-top-level:
+- "SpinLock"
+- "RecursiveLock"
+- "Void"
+- "Lock"
+depends-member:
+- ["Ps9AnyObject", "calculateLocked"]
+- ["Ps9AnyObject", "calculateLockedOrFail"]
+- ["Ps9AnyObject", "lock"]
+- ["Ps9AnyObject", "performLocked"]
+- ["Ps9AnyObject", "unlock"]
+- ["Ps7CVarArg", "calculateLocked"]
+- ["Ps7CVarArg", "calculateLockedOrFail"]
+- ["Ps7CVarArg", "lock"]
+- ["Ps7CVarArg", "performLocked"]
+- ["Ps7CVarArg", "unlock"]
+- ["Ps28CustomDebugStringConvertible", "calculateLocked"]
+- ["Ps28CustomDebugStringConvertible", "calculateLockedOrFail"]
+- ["Ps28CustomDebugStringConvertible", "lock"]
+- ["Ps28CustomDebugStringConvertible", "performLocked"]
+- ["Ps28CustomDebugStringConvertible", "unlock"]
+- ["Ps23CustomStringConvertible", "calculateLocked"]
+- ["Ps23CustomStringConvertible", "calculateLockedOrFail"]
+- ["Ps23CustomStringConvertible", "lock"]
+- ["Ps23CustomStringConvertible", "performLocked"]
+- ["Ps23CustomStringConvertible", "unlock"]
+- ["Ps9Equatable", "calculateLocked"]
+- ["Ps9Equatable", "calculateLockedOrFail"]
+- ["Ps9Equatable", "lock"]
+- ["Ps9Equatable", "performLocked"]
+- ["Ps9Equatable", "unlock"]
+- ["Ps8Hashable", "calculateLocked"]
+- ["Ps8Hashable", "calculateLockedOrFail"]
+- ["Ps8Hashable", "lock"]
+- ["Ps8Hashable", "performLocked"]
+- ["Ps8Hashable", "unlock"]
+- ["P7RxSwift4Lock", "lock"]
+- ["P7RxSwift4Lock", "unlock"]
+- ["P7RxSwift4Lock", ""]
+- ["PSo9NSLocking", "lock"]
+- ["PSo9NSLocking", "unlock"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "calculateLocked"]
+- ["CSo8NSObject", "calculateLockedOrFail"]
+- ["CSo8NSObject", "lock"]
+- ["CSo8NSObject", "performLocked"]
+- ["CSo8NSObject", "unlock"]
+- ["PSo16NSObjectProtocol", "calculateLocked"]
+- ["PSo16NSObjectProtocol", "calculateLockedOrFail"]
+- ["PSo16NSObjectProtocol", "lock"]
+- ["PSo16NSObjectProtocol", "performLocked"]
+- ["PSo16NSObjectProtocol", "unlock"]
+- ["CSo15NSRecursiveLock", "Void"]
+- ["CSo15NSRecursiveLock", "calculateLocked"]
+- ["CSo15NSRecursiveLock", "calculateLockedOrFail"]
+- ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "lock"]
+- ["CSo15NSRecursiveLock", "performLocked"]
+- ["CSo15NSRecursiveLock", "unlock"]
+- ["P7RxSwift18ReactiveCompatible", "calculateLocked"]
+- ["P7RxSwift18ReactiveCompatible", "calculateLockedOrFail"]
+- ["P7RxSwift18ReactiveCompatible", "lock"]
+- ["P7RxSwift18ReactiveCompatible", "performLocked"]
+- ["P7RxSwift18ReactiveCompatible", "unlock"]
+- ["Ps9_Hashable", "calculateLocked"]
+- ["Ps9_Hashable", "calculateLockedOrFail"]
+- ["Ps9_Hashable", "lock"]
+- ["Ps9_Hashable", "performLocked"]
+- ["Ps9_Hashable", "unlock"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "P7RxSwift4Lock"
+- "PSo9NSLocking"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- "P7RxSwift18ReactiveCompatible"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "dfbdb83adcfbef887cd60a39fdb76be7"

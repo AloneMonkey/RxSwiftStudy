@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C7RxSwift8Variable", ""]
+- ["C7RxSwift8Variable", "asSharedSequence"]
+provides-dynamic-lookup:
+depends-top-level:
+- "SharingStrategyProtocol"
+- "SharedSequence"
+- "Variable"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "SharedSequence"]
+- !private ["Ps9AnyObject", "asObservable"]
+- !private ["Ps9AnyObject", "observeOn"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "observeOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "observeOn"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "observeOn"]
+- ["P7RxSwift13SchedulerType", "deinit"]
+- ["V7RxCocoa14SharedSequence", "deinit"]
+- !private ["V7RxCocoa14SharedSequence", "init"]
+- !private ["P7RxCocoa29SharedSequenceConvertibleType", "init"]
+- !private ["P7RxCocoa23SharingStrategyProtocol", "scheduler"]
+- ["C7RxSwift8Variable", "E"]
+- ["C7RxSwift8Variable", "SharedSequence"]
+- ["C7RxSwift8Variable", "SharingStrategyProtocol"]
+- !private ["C7RxSwift8Variable", "asObservable"]
+- ["C7RxSwift8Variable", "asSharedSequence"]
+- ["C7RxSwift8Variable", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- "P7RxSwift13SchedulerType"
+- "V7RxCocoa14SharedSequence"
+- !private "P7RxCocoa29SharedSequenceConvertibleType"
+- !private "P7RxCocoa23SharingStrategyProtocol"
+- "C7RxSwift8Variable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "06b2cb8247e9af1f9939ec0520ff8de2"

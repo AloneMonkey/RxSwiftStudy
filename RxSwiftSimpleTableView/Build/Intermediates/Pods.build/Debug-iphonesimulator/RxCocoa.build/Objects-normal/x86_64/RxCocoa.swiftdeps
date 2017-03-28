@@ -1,0 +1,259 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCocoaError"
+- "bindingErrorToInterface"
+- "rxAbstractMethodWithMessage"
+- "rxAbstractMethod"
+- "castOptionalOrFatalError"
+- "castOrThrow"
+- "castOptionalOrThrow"
+- "castOrFatalError"
+- "castOrFatalError"
+- "dataSourceNotSet"
+- "delegateNotSet"
+- "rxFatalError"
+provides-nominal:
+- "O7RxCocoa12RxCocoaError"
+provides-member:
+- ["O7RxCocoa12RxCocoaError", ""]
+- ["O7RxCocoa12RxCocoaError", "debugDescription"]
+provides-dynamic-lookup:
+depends-top-level:
+- "StringLiteralType"
+- "Swift"
+- "rxAbstractMethodWithMessage"
+- "dataSourceNotSet"
+- "rxAbstractMethod"
+- "String"
+- "AnyObject"
+- "CustomDebugStringConvertible"
+- "castOrThrow"
+- !private "UnicodeScalarType"
+- "RxCocoaError"
+- "castOptionalOrFatalError"
+- "castOptionalOrThrow"
+- !private "NSNull"
+- !private "print"
+- !private "=="
+- "CastingPrecedence"
+- "castOrFatalError"
+- "delegateNotSet"
+- "bindingErrorToInterface"
+- "Never"
+- !private "fatalError"
+- "rxFatalError"
+depends-member:
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isEqual"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "isEqual"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isEqual"]
+- !private ["Vs9Character", "deinit"]
+- ["Ps10Comparable", "init"]
+- ["Ps28CustomDebugStringConvertible", "_code"]
+- ["Ps28CustomDebugStringConvertible", "_domain"]
+- ["Ps28CustomDebugStringConvertible", "_getEmbeddedNSError"]
+- ["Ps28CustomDebugStringConvertible", "_userInfo"]
+- ["Ps28CustomDebugStringConvertible", "castingError"]
+- ["Ps28CustomDebugStringConvertible", "debugDescription"]
+- ["Ps28CustomDebugStringConvertible", "errorDuringSwizzling"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "invalidObjectOnKeyPath"]
+- ["Ps28CustomDebugStringConvertible", "invalidOperation"]
+- ["Ps28CustomDebugStringConvertible", "invalidPropertyName"]
+- !private ["Ps28CustomDebugStringConvertible", "isEqual"]
+- ["Ps28CustomDebugStringConvertible", "itemsNotYetBound"]
+- ["Ps28CustomDebugStringConvertible", "unknown"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isEqual"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isEqual"]
+- ["Ps5Error", "_code"]
+- ["Ps5Error", "_domain"]
+- ["Ps5Error", "_getEmbeddedNSError"]
+- ["Ps5Error", "_userInfo"]
+- ["Ps5Error", "castingError"]
+- ["Ps5Error", "debugDescription"]
+- ["Ps5Error", "deinit"]
+- ["Ps5Error", "errorDuringSwizzling"]
+- ["Ps5Error", "invalidObjectOnKeyPath"]
+- ["Ps5Error", "invalidOperation"]
+- ["Ps5Error", "invalidPropertyName"]
+- ["Ps5Error", "itemsNotYetBound"]
+- ["Ps5Error", "unknown"]
+- ["Ps5Error", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isEqual"]
+- ["SQ", "deinit"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isEqual"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isEqual"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo6NSNull", "deinit"]
+- !private ["CSo6NSNull", "init"]
+- !private ["CSo6NSNull", "isEqual"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isEqual"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isEqual"]
+- ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "isEqual"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "isEqual"]
+- ["O7RxCocoa12RxCocoaError", "AnyObject"]
+- ["O7RxCocoa12RxCocoaError", "String"]
+- ["O7RxCocoa12RxCocoaError", "_code"]
+- ["O7RxCocoa12RxCocoaError", "_domain"]
+- ["O7RxCocoa12RxCocoaError", "_getEmbeddedNSError"]
+- ["O7RxCocoa12RxCocoaError", "_userInfo"]
+- ["O7RxCocoa12RxCocoaError", "castingError"]
+- ["O7RxCocoa12RxCocoaError", "debugDescription"]
+- ["O7RxCocoa12RxCocoaError", "deinit"]
+- ["O7RxCocoa12RxCocoaError", "errorDuringSwizzling"]
+- ["O7RxCocoa12RxCocoaError", "invalidObjectOnKeyPath"]
+- ["O7RxCocoa12RxCocoaError", "invalidOperation"]
+- ["O7RxCocoa12RxCocoaError", "invalidPropertyName"]
+- ["O7RxCocoa12RxCocoaError", "itemsNotYetBound"]
+- ["O7RxCocoa12RxCocoaError", "unknown"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isEqual"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo8CAAction"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Sd"
+- "Ps9Equatable"
+- "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- "Ps8Hashable"
+- "SQ"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P7RxCocoa16KVORepresentable"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo6NSNull"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "O7RxCocoa12RxCocoaError"
+- "Vs12StaticString"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "9eb019e34e4b8f29da3804b57b076229"

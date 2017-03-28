@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SynchronizedDisposeType"
+provides-nominal:
+- "P7RxSwift23SynchronizedDisposeType"
+provides-member:
+- ["P7RxSwift23SynchronizedDisposeType", ""]
+- ["P7RxSwift23SynchronizedDisposeType", "synchronizedDispose"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- "Lock"
+- "SynchronizedDisposeType"
+depends-member:
+- ["P7RxSwift10Disposable", "_synchronized_dispose"]
+- !private ["P7RxSwift10Disposable", "lock"]
+- !private ["P7RxSwift10Disposable", "unlock"]
+- ["P7RxSwift10Disposable", ""]
+- ["P7RxSwift4Lock", "_synchronized_dispose"]
+- !private ["P7RxSwift4Lock", "lock"]
+- !private ["P7RxSwift4Lock", "unlock"]
+- ["P7RxSwift4Lock", ""]
+- ["P7RxSwift23SynchronizedDisposeType", "_synchronized_dispose"]
+- !private ["P7RxSwift23SynchronizedDisposeType", "lock"]
+- ["P7RxSwift23SynchronizedDisposeType", "synchronizedDispose"]
+- !private ["P7RxSwift23SynchronizedDisposeType", "unlock"]
+depends-nominal:
+- "P7RxSwift10Disposable"
+- "P7RxSwift4Lock"
+- "P7RxSwift23SynchronizedDisposeType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "c6f7950d188456fb4b4c8cf853b6ef7f"

@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "date"]
+- ["V7RxSwift8Reactive", "value"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ControlProperty"
+- "Date"
+- "Reactive"
+- !private "UIControl"
+- !private "AssignmentPrecedence"
+- "UIDatePicker"
+depends-member:
+- !private ["Ps9AnyObject", "date"]
+- !private ["Ps9AnyObject", "rx"]
+- !private ["PSo15CALayerDelegate", "date"]
+- !private ["PSo15CALayerDelegate", "rx"]
+- !private ["Ps7CVarArg", "date"]
+- !private ["Ps7CVarArg", "rx"]
+- ["V7RxCocoa15ControlProperty", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "date"]
+- !private ["Ps28CustomDebugStringConvertible", "rx"]
+- !private ["Ps23CustomStringConvertible", "date"]
+- !private ["Ps23CustomStringConvertible", "rx"]
+- !private ["V10Foundation4Date", "deinit"]
+- !private ["Ps9Equatable", "date"]
+- !private ["Ps9Equatable", "rx"]
+- !private ["Ps8Hashable", "date"]
+- !private ["Ps8Hashable", "rx"]
+- !private ["PSo8NSCoding", "date"]
+- !private ["PSo8NSCoding", "rx"]
+- !private ["CSo8NSObject", "date"]
+- !private ["CSo8NSObject", "rx"]
+- !private ["PSo16NSObjectProtocol", "date"]
+- !private ["PSo16NSObjectProtocol", "rx"]
+- ["V7RxSwift8Reactive", "ControlProperty"]
+- ["V7RxSwift8Reactive", "Date"]
+- !private ["V7RxSwift8Reactive", "UIControl"]
+- ["V7RxSwift8Reactive", "UIDatePicker"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "date"]
+- ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "value"]
+- !private ["P7RxSwift18ReactiveCompatible", "date"]
+- !private ["P7RxSwift18ReactiveCompatible", "rx"]
+- !private ["PSo29UIAccessibilityIdentification", "date"]
+- !private ["PSo29UIAccessibilityIdentification", "rx"]
+- !private ["PSo12UIAppearance", "date"]
+- !private ["PSo12UIAppearance", "rx"]
+- !private ["PSo21UIAppearanceContainer", "date"]
+- !private ["PSo21UIAppearanceContainer", "rx"]
+- !private ["CSo9UIControl", "date"]
+- !private ["CSo9UIControl", "rx"]
+- !private ["PSo17UICoordinateSpace", "date"]
+- !private ["PSo17UICoordinateSpace", "rx"]
+- !private ["CSo12UIDatePicker", "date"]
+- !private ["PSo13UIDynamicItem", "date"]
+- !private ["PSo13UIDynamicItem", "rx"]
+- !private ["PSo18UIFocusEnvironment", "date"]
+- !private ["PSo18UIFocusEnvironment", "rx"]
+- !private ["PSo11UIFocusItem", "date"]
+- !private ["PSo11UIFocusItem", "rx"]
+- !private ["CSo11UIResponder", "date"]
+- !private ["CSo11UIResponder", "rx"]
+- !private ["PSo30UIResponderStandardEditActions", "date"]
+- !private ["PSo30UIResponderStandardEditActions", "rx"]
+- !private ["PSo18UITraitEnvironment", "date"]
+- !private ["PSo18UITraitEnvironment", "rx"]
+- !private ["CSo6UIView", "date"]
+- !private ["CSo6UIView", "rx"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "date"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rx"]
+- !private ["Ps9_Hashable", "date"]
+- !private ["Ps9_Hashable", "rx"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- "V7RxCocoa15ControlProperty"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Date"
+- !private "Ps9Equatable"
+- !private "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "CSo9UIControl"
+- !private "PSo17UICoordinateSpace"
+- !private "CSo12UIDatePicker"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "50dbc838094074400867294c7b7e9ff8"

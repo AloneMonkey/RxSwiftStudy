@@ -1,0 +1,311 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SingleAssignmentDisposable"
+provides-nominal:
+- "C7RxSwift26SingleAssignmentDisposable"
+provides-member:
+- ["C7RxSwift26SingleAssignmentDisposable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "!="
+- !private "rxFatalError"
+- !private "AtomicFlagSet"
+- !private "StringLiteralType"
+- "Disposable"
+- "SingleAssignmentDisposable"
+- !private "Int32"
+- !private "UInt32"
+- !private "AtomicOr"
+- "IntegerLiteralType"
+- "FloatLiteralType"
+- "Cancelable"
+- "DisposeBase"
+- "Bool"
+- !private "&"
+- "CastingPrecedence"
+- "AtomicInt"
+- !private "~="
+- !private "=="
+depends-member:
+- !private ["Ps9AnyObject", "AtomicFlagSet"]
+- !private ["Ps9AnyObject", "AtomicOr"]
+- !private ["Ps9AnyObject", "DisposeState"]
+- !private ["Ps9AnyObject", "DisposeStateInt32"]
+- ["Ps9AnyObject", "_disposable"]
+- ["Ps9AnyObject", "_state"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "rxFatalError"]
+- ["Ps9AnyObject", "setDisposable"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["P7RxSwift10Cancelable", "AtomicFlagSet"]
+- !private ["P7RxSwift10Cancelable", "AtomicOr"]
+- !private ["P7RxSwift10Cancelable", "DisposeState"]
+- !private ["P7RxSwift10Cancelable", "DisposeStateInt32"]
+- !private ["P7RxSwift10Cancelable", "_disposable"]
+- !private ["P7RxSwift10Cancelable", "_state"]
+- ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "isDisposed"]
+- !private ["P7RxSwift10Cancelable", "rxFatalError"]
+- ["P7RxSwift10Cancelable", ""]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["P7RxSwift10Disposable", "AtomicFlagSet"]
+- !private ["P7RxSwift10Disposable", "AtomicOr"]
+- !private ["P7RxSwift10Disposable", "DisposeState"]
+- !private ["P7RxSwift10Disposable", "DisposeStateInt32"]
+- !private ["P7RxSwift10Disposable", "_disposable"]
+- !private ["P7RxSwift10Disposable", "_state"]
+- ["P7RxSwift10Disposable", "deinit"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "isDisposed"]
+- !private ["P7RxSwift10Disposable", "rxFatalError"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["C7RxSwift11DisposeBase", "AtomicFlagSet"]
+- ["C7RxSwift11DisposeBase", "AtomicInt"]
+- !private ["C7RxSwift11DisposeBase", "AtomicOr"]
+- ["C7RxSwift11DisposeBase", "Bool"]
+- ["C7RxSwift11DisposeBase", "Disposable"]
+- !private ["C7RxSwift11DisposeBase", "DisposeState"]
+- !private ["C7RxSwift11DisposeBase", "DisposeStateInt32"]
+- !private ["C7RxSwift11DisposeBase", "Int32"]
+- !private ["C7RxSwift11DisposeBase", "UInt32"]
+- ["C7RxSwift11DisposeBase", "_disposable"]
+- ["C7RxSwift11DisposeBase", "_state"]
+- ["C7RxSwift11DisposeBase", "deinit"]
+- ["C7RxSwift11DisposeBase", "dispose"]
+- ["C7RxSwift11DisposeBase", "init"]
+- ["C7RxSwift11DisposeBase", "isDisposed"]
+- !private ["C7RxSwift11DisposeBase", "rxFatalError"]
+- ["C7RxSwift11DisposeBase", "setDisposable"]
+- ["C7RxSwift11DisposeBase", ""]
+- !private ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "disposableSet"]
+- !private ["Ps9Equatable", "disposed"]
+- !private ["Ps9Equatable", "hashValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", ""]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "disposableSet"]
+- !private ["Ps8Hashable", "disposed"]
+- !private ["Ps8Hashable", "hashValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", ""]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int32", "Stride"]
+- ["Vs5Int32", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "_toAnyHashable"]
+- !private ["Ps16RawRepresentable", "disposableSet"]
+- !private ["Ps16RawRepresentable", "disposed"]
+- !private ["Ps16RawRepresentable", "hashValue"]
+- !private ["Ps16RawRepresentable", "init"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- !private ["Ps16RawRepresentable", ""]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "AtomicFlagSet"]
+- ["C7RxSwift26SingleAssignmentDisposable", "AtomicInt"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "AtomicOr"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Bool"]
+- ["C7RxSwift26SingleAssignmentDisposable", "Disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "DisposeState"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "DisposeStateInt32"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "Int32"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "UInt32"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "_disposable"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "_state"]
+- ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- ["C7RxSwift26SingleAssignmentDisposable", "dispose"]
+- ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- ["C7RxSwift26SingleAssignmentDisposable", "isDisposed"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "rxFatalError"]
+- ["C7RxSwift26SingleAssignmentDisposable", "setDisposable"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Vs6UInt32", "Stride"]
+- ["Vs6UInt32", "deinit"]
+- !private ["Ps15UnsignedInteger", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "disposableSet"]
+- !private ["Ps9_Hashable", "disposed"]
+- !private ["Ps9_Hashable", "hashValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- !private "Vs11ClosedRange"
+- !private "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "Si"
+- "Vs5Int32"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- !private "Vs5Range"
+- !private "Ps16RawRepresentable"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- "C7RxSwift26SingleAssignmentDisposable"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "Vs6UInt32"
+- !private "Ps15UnsignedInteger"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "3b7124cfce378c4354d035536caa1634"

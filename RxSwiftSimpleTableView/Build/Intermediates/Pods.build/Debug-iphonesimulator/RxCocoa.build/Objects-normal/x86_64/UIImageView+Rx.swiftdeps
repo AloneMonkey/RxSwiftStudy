@@ -1,0 +1,217 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "image"]
+- ["V7RxSwift8Reactive", "image"]
+provides-dynamic-lookup:
+depends-top-level:
+- "UIImage"
+- !private "CAMediaTimingFunction"
+- !private "CATransition"
+- "String"
+- !private "!="
+- "UIBindingObserver"
+- "UIImageView"
+- "Reactive"
+- !private "AssignmentPrecedence"
+- !private "kCATransition"
+- !private "kCAMediaTimingFunctionEaseInEaseOut"
+depends-member:
+- !private ["Ps9AnyObject", "add"]
+- !private ["Ps9AnyObject", "duration"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "removeAllAnimations"]
+- !private ["Ps9AnyObject", "timingFunction"]
+- !private ["Ps9AnyObject", "type"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSo8CAAction", "duration"]
+- !private ["PSo8CAAction", "init"]
+- !private ["PSo8CAAction", "timingFunction"]
+- !private ["PSo8CAAction", "type"]
+- !private ["CSo11CAAnimation", "duration"]
+- !private ["CSo11CAAnimation", "init"]
+- !private ["CSo11CAAnimation", "timingFunction"]
+- !private ["CSo11CAAnimation", "type"]
+- !private ["CSo7CALayer", "add"]
+- !private ["CSo7CALayer", "deinit"]
+- !private ["CSo7CALayer", "removeAllAnimations"]
+- !private ["PSo13CAMediaTiming", "add"]
+- !private ["PSo13CAMediaTiming", "duration"]
+- !private ["PSo13CAMediaTiming", "init"]
+- !private ["PSo13CAMediaTiming", "removeAllAnimations"]
+- !private ["PSo13CAMediaTiming", "timingFunction"]
+- !private ["PSo13CAMediaTiming", "type"]
+- !private ["CSo21CAMediaTimingFunction", "deinit"]
+- !private ["CSo21CAMediaTimingFunction", "init"]
+- !private ["CSo12CATransition", "deinit"]
+- !private ["CSo12CATransition", "duration"]
+- !private ["CSo12CATransition", "init"]
+- !private ["CSo12CATransition", "timingFunction"]
+- !private ["CSo12CATransition", "type"]
+- !private ["Ps7CVarArg", "add"]
+- !private ["Ps7CVarArg", "duration"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "removeAllAnimations"]
+- !private ["Ps7CVarArg", "timingFunction"]
+- !private ["Ps7CVarArg", "type"]
+- !private ["Ps28CustomDebugStringConvertible", "add"]
+- !private ["Ps28CustomDebugStringConvertible", "duration"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAllAnimations"]
+- !private ["Ps28CustomDebugStringConvertible", "timingFunction"]
+- !private ["Ps28CustomDebugStringConvertible", "type"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "add"]
+- !private ["Ps23CustomStringConvertible", "duration"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "removeAllAnimations"]
+- !private ["Ps23CustomStringConvertible", "timingFunction"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "add"]
+- !private ["Ps9Equatable", "duration"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "removeAllAnimations"]
+- !private ["Ps9Equatable", "timingFunction"]
+- !private ["Ps9Equatable", "type"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "add"]
+- !private ["Ps8Hashable", "duration"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "removeAllAnimations"]
+- !private ["Ps8Hashable", "timingFunction"]
+- !private ["Ps8Hashable", "type"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSo8NSCoding", "add"]
+- !private ["PSo8NSCoding", "duration"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "removeAllAnimations"]
+- !private ["PSo8NSCoding", "timingFunction"]
+- !private ["PSo8NSCoding", "type"]
+- !private ["PSo9NSCopying", "duration"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "timingFunction"]
+- !private ["PSo9NSCopying", "type"]
+- !private ["CSo8NSObject", "add"]
+- !private ["CSo8NSObject", "duration"]
+- !private ["CSo8NSObject", "image"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- !private ["CSo8NSObject", "removeAllAnimations"]
+- !private ["CSo8NSObject", "timingFunction"]
+- !private ["CSo8NSObject", "type"]
+- !private ["PSo16NSObjectProtocol", "add"]
+- !private ["PSo16NSObjectProtocol", "duration"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "removeAllAnimations"]
+- !private ["PSo16NSObjectProtocol", "timingFunction"]
+- !private ["PSo16NSObjectProtocol", "type"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["Sq", "deinit"]
+- ["V7RxSwift8Reactive", "Base"]
+- !private ["V7RxSwift8Reactive", "CAMediaTimingFunction"]
+- !private ["V7RxSwift8Reactive", "CATransition"]
+- ["V7RxSwift8Reactive", "String"]
+- ["V7RxSwift8Reactive", "UIBindingObserver"]
+- ["V7RxSwift8Reactive", "UIImage"]
+- ["V7RxSwift8Reactive", "UIImageView"]
+- !private ["V7RxSwift8Reactive", "base"]
+- ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "image"]
+- !private ["V7RxSwift8Reactive", "kCAMediaTimingFunctionEaseInEaseOut"]
+- !private ["V7RxSwift8Reactive", "kCATransition"]
+- !private ["P7RxSwift18ReactiveCompatible", "add"]
+- !private ["P7RxSwift18ReactiveCompatible", "duration"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "removeAllAnimations"]
+- !private ["P7RxSwift18ReactiveCompatible", "timingFunction"]
+- !private ["P7RxSwift18ReactiveCompatible", "type"]
+- !private ["SS", "deinit"]
+- ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo11UIImageView", "layer"]
+- !private ["CSo11UIResponder", "image"]
+- !private ["CSo11UIResponder", "layer"]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "layer"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "add"]
+- !private ["Ps9_Hashable", "duration"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "removeAllAnimations"]
+- !private ["Ps9_Hashable", "timingFunction"]
+- !private ["Ps9_Hashable", "type"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Sb"
+- !private "PSo8CAAction"
+- !private "CSo11CAAnimation"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "CSo21CAMediaTimingFunction"
+- !private "CSo12CATransition"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "Ps25LosslessStringConvertible"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "P7RxSwift12ObserverType"
+- "Sq"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "SS"
+- "C7RxCocoa17UIBindingObserver"
+- !private "CSo11UIImageView"
+- !private "CSo11UIResponder"
+- !private "CSo6UIView"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "16c3d8dcfb34417b748603e958c069b6"

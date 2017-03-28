@@ -1,0 +1,54 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SynchronizedOnType"
+provides-nominal:
+- "P7RxSwift18SynchronizedOnType"
+provides-member:
+- ["P7RxSwift18SynchronizedOnType", ""]
+- ["P7RxSwift18SynchronizedOnType", "synchronizedOn"]
+provides-dynamic-lookup:
+depends-top-level:
+- "SynchronizedOnType"
+- "Lock"
+- "Event"
+- "ObserverType"
+depends-member:
+- ["O7RxSwift5Event", "deinit"]
+- ["P7RxSwift4Lock", "E"]
+- ["P7RxSwift4Lock", "Event"]
+- ["P7RxSwift4Lock", "_synchronized_on"]
+- !private ["P7RxSwift4Lock", "lock"]
+- !private ["P7RxSwift4Lock", "unlock"]
+- ["P7RxSwift4Lock", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- ["P7RxSwift12ObserverType", "Event"]
+- ["P7RxSwift12ObserverType", "_synchronized_on"]
+- !private ["P7RxSwift12ObserverType", "lock"]
+- !private ["P7RxSwift12ObserverType", "unlock"]
+- ["P7RxSwift12ObserverType", ""]
+- ["P7RxSwift18SynchronizedOnType", "E"]
+- ["P7RxSwift18SynchronizedOnType", "Event"]
+- ["P7RxSwift18SynchronizedOnType", "_synchronized_on"]
+- !private ["P7RxSwift18SynchronizedOnType", "lock"]
+- ["P7RxSwift18SynchronizedOnType", "synchronizedOn"]
+- !private ["P7RxSwift18SynchronizedOnType", "unlock"]
+depends-nominal:
+- "O7RxSwift5Event"
+- "P7RxSwift4Lock"
+- "P7RxSwift12ObserverType"
+- "P7RxSwift18SynchronizedOnType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "55b346ec00b1b251eda262ac6f96fe14"

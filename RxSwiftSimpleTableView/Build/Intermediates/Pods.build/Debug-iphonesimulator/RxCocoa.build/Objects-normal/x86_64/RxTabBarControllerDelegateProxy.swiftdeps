@@ -1,0 +1,336 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxTabBarControllerDelegateProxy"
+provides-nominal:
+- "C7RxCocoa31RxTabBarControllerDelegateProxy"
+provides-member:
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", ""]
+provides-dynamic-lookup:
+- "createProxyForObject"
+- "setCurrentDelegate"
+- "currentDelegateFor"
+depends-top-level:
+- "RxTabBarControllerDelegateProxy"
+- "AnyObject"
+- "UITabBarControllerDelegate"
+- !private "castOptionalOrFatalError"
+- "DelegateProxy"
+- !private "UITabBarController"
+- !private "castOrFatalError"
+- "DelegateProxyType"
+- "AssignmentPrecedence"
+depends-member:
+- ["Ps9AnyObject", "assignProxy"]
+- ["Ps9AnyObject", "assignedProxyFor"]
+- !private ["Ps9AnyObject", "castOptionalOrFatalError"]
+- !private ["Ps9AnyObject", "castOrFatalError"]
+- ["Ps9AnyObject", "createProxyForObject"]
+- !private ["Ps9AnyObject", "createRxDelegateProxy"]
+- ["Ps9AnyObject", "currentDelegateFor"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "delegate"]
+- ["Ps9AnyObject", "forwardToDelegate"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "setCurrentDelegate"]
+- ["Ps9AnyObject", "setForwardToDelegate"]
+- ["Ps9AnyObject", "tabBarController"]
+- ["Ps9AnyObject", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9AnyObject", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps9AnyObject", ""]
+- ["Ps7CVarArg", "assignProxy"]
+- ["Ps7CVarArg", "assignedProxyFor"]
+- !private ["Ps7CVarArg", "castOptionalOrFatalError"]
+- !private ["Ps7CVarArg", "castOrFatalError"]
+- ["Ps7CVarArg", "createProxyForObject"]
+- !private ["Ps7CVarArg", "createRxDelegateProxy"]
+- ["Ps7CVarArg", "currentDelegateFor"]
+- !private ["Ps7CVarArg", "delegate"]
+- ["Ps7CVarArg", "forwardToDelegate"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "setCurrentDelegate"]
+- ["Ps7CVarArg", "setForwardToDelegate"]
+- ["Ps7CVarArg", "tabBarController"]
+- ["Ps7CVarArg", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps7CVarArg", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps7CVarArg", ""]
+- ["Ps28CustomDebugStringConvertible", "assignProxy"]
+- ["Ps28CustomDebugStringConvertible", "assignedProxyFor"]
+- !private ["Ps28CustomDebugStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "castOrFatalError"]
+- ["Ps28CustomDebugStringConvertible", "createProxyForObject"]
+- !private ["Ps28CustomDebugStringConvertible", "createRxDelegateProxy"]
+- ["Ps28CustomDebugStringConvertible", "currentDelegateFor"]
+- !private ["Ps28CustomDebugStringConvertible", "delegate"]
+- ["Ps28CustomDebugStringConvertible", "forwardToDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "setCurrentDelegate"]
+- ["Ps28CustomDebugStringConvertible", "setForwardToDelegate"]
+- ["Ps28CustomDebugStringConvertible", "tabBarController"]
+- ["Ps28CustomDebugStringConvertible", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps28CustomDebugStringConvertible", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["Ps23CustomStringConvertible", "assignProxy"]
+- ["Ps23CustomStringConvertible", "assignedProxyFor"]
+- !private ["Ps23CustomStringConvertible", "castOptionalOrFatalError"]
+- !private ["Ps23CustomStringConvertible", "castOrFatalError"]
+- ["Ps23CustomStringConvertible", "createProxyForObject"]
+- !private ["Ps23CustomStringConvertible", "createRxDelegateProxy"]
+- ["Ps23CustomStringConvertible", "currentDelegateFor"]
+- !private ["Ps23CustomStringConvertible", "delegate"]
+- ["Ps23CustomStringConvertible", "forwardToDelegate"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "setCurrentDelegate"]
+- ["Ps23CustomStringConvertible", "setForwardToDelegate"]
+- ["Ps23CustomStringConvertible", "tabBarController"]
+- ["Ps23CustomStringConvertible", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps23CustomStringConvertible", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- !private ["C7RxCocoa13DelegateProxy", "UITabBarController"]
+- ["C7RxCocoa13DelegateProxy", "assignProxy"]
+- ["C7RxCocoa13DelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa13DelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa13DelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa13DelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa13DelegateProxy", "currentDelegateFor"]
+- ["C7RxCocoa13DelegateProxy", "deinit"]
+- ["C7RxCocoa13DelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- ["C7RxCocoa13DelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa13DelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa13DelegateProxy", "tabBarController"]
+- ["C7RxCocoa13DelegateProxy", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["C7RxCocoa13DelegateProxy", "tabBarControllerSupportedInterfaceOrientations"]
+- ["C7RxCocoa13DelegateProxy", ""]
+- ["P7RxCocoa17DelegateProxyType", "assignProxy"]
+- ["P7RxCocoa17DelegateProxyType", "assignedProxyFor"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOptionalOrFatalError"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOrFatalError"]
+- ["P7RxCocoa17DelegateProxyType", "createProxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- ["P7RxCocoa17DelegateProxyType", "forwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setForwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "tabBarController"]
+- ["P7RxCocoa17DelegateProxyType", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["P7RxCocoa17DelegateProxyType", "tabBarControllerSupportedInterfaceOrientations"]
+- ["P7RxCocoa17DelegateProxyType", ""]
+- ["Ps9Equatable", "assignProxy"]
+- ["Ps9Equatable", "assignedProxyFor"]
+- !private ["Ps9Equatable", "castOptionalOrFatalError"]
+- !private ["Ps9Equatable", "castOrFatalError"]
+- ["Ps9Equatable", "createProxyForObject"]
+- !private ["Ps9Equatable", "createRxDelegateProxy"]
+- ["Ps9Equatable", "currentDelegateFor"]
+- !private ["Ps9Equatable", "delegate"]
+- ["Ps9Equatable", "forwardToDelegate"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "setCurrentDelegate"]
+- ["Ps9Equatable", "setForwardToDelegate"]
+- ["Ps9Equatable", "tabBarController"]
+- ["Ps9Equatable", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9Equatable", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps9Equatable", ""]
+- ["Ps8Hashable", "assignProxy"]
+- ["Ps8Hashable", "assignedProxyFor"]
+- !private ["Ps8Hashable", "castOptionalOrFatalError"]
+- !private ["Ps8Hashable", "castOrFatalError"]
+- ["Ps8Hashable", "createProxyForObject"]
+- !private ["Ps8Hashable", "createRxDelegateProxy"]
+- ["Ps8Hashable", "currentDelegateFor"]
+- !private ["Ps8Hashable", "delegate"]
+- ["Ps8Hashable", "forwardToDelegate"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "setCurrentDelegate"]
+- ["Ps8Hashable", "setForwardToDelegate"]
+- ["Ps8Hashable", "tabBarController"]
+- ["Ps8Hashable", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps8Hashable", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "createRxDelegateProxy"]
+- !private ["PSo8NSCoding", "delegate"]
+- !private ["PSo26NSExtensionRequestHandling", "createRxDelegateProxy"]
+- !private ["PSo26NSExtensionRequestHandling", "delegate"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "UITabBarController"]
+- ["CSo8NSObject", "assignProxy"]
+- ["CSo8NSObject", "assignedProxyFor"]
+- !private ["CSo8NSObject", "castOptionalOrFatalError"]
+- !private ["CSo8NSObject", "castOrFatalError"]
+- ["CSo8NSObject", "createProxyForObject"]
+- !private ["CSo8NSObject", "createRxDelegateProxy"]
+- ["CSo8NSObject", "currentDelegateFor"]
+- !private ["CSo8NSObject", "delegate"]
+- ["CSo8NSObject", "forwardToDelegate"]
+- ["CSo8NSObject", "setCurrentDelegate"]
+- ["CSo8NSObject", "setForwardToDelegate"]
+- ["CSo8NSObject", "tabBarController"]
+- ["CSo8NSObject", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo8NSObject", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo16NSObjectProtocol", "assignProxy"]
+- ["PSo16NSObjectProtocol", "assignedProxyFor"]
+- !private ["PSo16NSObjectProtocol", "castOptionalOrFatalError"]
+- !private ["PSo16NSObjectProtocol", "castOrFatalError"]
+- ["PSo16NSObjectProtocol", "createProxyForObject"]
+- !private ["PSo16NSObjectProtocol", "createRxDelegateProxy"]
+- ["PSo16NSObjectProtocol", "currentDelegateFor"]
+- !private ["PSo16NSObjectProtocol", "delegate"]
+- ["PSo16NSObjectProtocol", "forwardToDelegate"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "setCurrentDelegate"]
+- ["PSo16NSObjectProtocol", "setForwardToDelegate"]
+- ["PSo16NSObjectProtocol", "tabBarController"]
+- ["PSo16NSObjectProtocol", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo16NSObjectProtocol", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- ["P7RxSwift18ReactiveCompatible", "assignProxy"]
+- ["P7RxSwift18ReactiveCompatible", "assignedProxyFor"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOptionalOrFatalError"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOrFatalError"]
+- ["P7RxSwift18ReactiveCompatible", "createProxyForObject"]
+- !private ["P7RxSwift18ReactiveCompatible", "createRxDelegateProxy"]
+- ["P7RxSwift18ReactiveCompatible", "currentDelegateFor"]
+- !private ["P7RxSwift18ReactiveCompatible", "delegate"]
+- ["P7RxSwift18ReactiveCompatible", "forwardToDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", "setCurrentDelegate"]
+- ["P7RxSwift18ReactiveCompatible", "setForwardToDelegate"]
+- ["P7RxSwift18ReactiveCompatible", "tabBarController"]
+- ["P7RxSwift18ReactiveCompatible", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["P7RxSwift18ReactiveCompatible", "tabBarControllerSupportedInterfaceOrientations"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "AnyObject"]
+- !private ["C7RxCocoa31RxTabBarControllerDelegateProxy", "UITabBarController"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "assignProxy"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "assignedProxyFor"]
+- !private ["C7RxCocoa31RxTabBarControllerDelegateProxy", "castOptionalOrFatalError"]
+- !private ["C7RxCocoa31RxTabBarControllerDelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "createProxyForObject"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "currentDelegateFor"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "deinit"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "forwardToDelegate"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "init"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "setCurrentDelegate"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "setForwardToDelegate"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "tabBarController"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["C7RxCocoa31RxTabBarControllerDelegateProxy", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["PSo21UIAppearanceContainer", "createRxDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "delegate"]
+- !private ["PSo18UIContentContainer", "createRxDelegateProxy"]
+- !private ["PSo18UIContentContainer", "delegate"]
+- !private ["PSo18UIFocusEnvironment", "createRxDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "delegate"]
+- !private ["CSo11UIResponder", "createRxDelegateProxy"]
+- !private ["CSo11UIResponder", "delegate"]
+- !private ["PSo30UIResponderStandardEditActions", "createRxDelegateProxy"]
+- !private ["PSo30UIResponderStandardEditActions", "delegate"]
+- !private ["PSo16UIStateRestoring", "createRxDelegateProxy"]
+- !private ["PSo16UIStateRestoring", "delegate"]
+- !private ["CSo18UITabBarController", "createRxDelegateProxy"]
+- ["CSo18UITabBarController", "deinit"]
+- !private ["CSo18UITabBarController", "delegate"]
+- ["PSo26UITabBarControllerDelegate", "assignProxy"]
+- ["PSo26UITabBarControllerDelegate", "assignedProxyFor"]
+- !private ["PSo26UITabBarControllerDelegate", "castOptionalOrFatalError"]
+- !private ["PSo26UITabBarControllerDelegate", "castOrFatalError"]
+- ["PSo26UITabBarControllerDelegate", "createProxyForObject"]
+- ["PSo26UITabBarControllerDelegate", "currentDelegateFor"]
+- ["PSo26UITabBarControllerDelegate", "forwardToDelegate"]
+- ["PSo26UITabBarControllerDelegate", "setCurrentDelegate"]
+- ["PSo26UITabBarControllerDelegate", "setForwardToDelegate"]
+- ["PSo26UITabBarControllerDelegate", "tabBarController"]
+- ["PSo26UITabBarControllerDelegate", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["PSo26UITabBarControllerDelegate", "tabBarControllerSupportedInterfaceOrientations"]
+- ["PSo26UITabBarControllerDelegate", ""]
+- !private ["PSo16UITabBarDelegate", "createRxDelegateProxy"]
+- !private ["PSo16UITabBarDelegate", "delegate"]
+- !private ["PSo18UITraitEnvironment", "createRxDelegateProxy"]
+- !private ["PSo18UITraitEnvironment", "delegate"]
+- !private ["CSo16UIViewController", "createRxDelegateProxy"]
+- !private ["CSo16UIViewController", "delegate"]
+- ["Ps9_Hashable", "assignProxy"]
+- ["Ps9_Hashable", "assignedProxyFor"]
+- !private ["Ps9_Hashable", "castOptionalOrFatalError"]
+- !private ["Ps9_Hashable", "castOrFatalError"]
+- ["Ps9_Hashable", "createProxyForObject"]
+- !private ["Ps9_Hashable", "createRxDelegateProxy"]
+- ["Ps9_Hashable", "currentDelegateFor"]
+- !private ["Ps9_Hashable", "delegate"]
+- ["Ps9_Hashable", "forwardToDelegate"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "setCurrentDelegate"]
+- ["Ps9_Hashable", "setForwardToDelegate"]
+- ["Ps9_Hashable", "tabBarController"]
+- ["Ps9_Hashable", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["Ps9_Hashable", "tabBarControllerSupportedInterfaceOrientations"]
+- ["Ps9_Hashable", ""]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- !private ["CSo16_RXDelegateProxy", "UITabBarController"]
+- ["CSo16_RXDelegateProxy", "assignProxy"]
+- ["CSo16_RXDelegateProxy", "assignedProxyFor"]
+- !private ["CSo16_RXDelegateProxy", "castOptionalOrFatalError"]
+- !private ["CSo16_RXDelegateProxy", "castOrFatalError"]
+- ["CSo16_RXDelegateProxy", "createProxyForObject"]
+- ["CSo16_RXDelegateProxy", "currentDelegateFor"]
+- ["CSo16_RXDelegateProxy", "forwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "setCurrentDelegate"]
+- ["CSo16_RXDelegateProxy", "setForwardToDelegate"]
+- ["CSo16_RXDelegateProxy", "tabBarController"]
+- ["CSo16_RXDelegateProxy", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["CSo16_RXDelegateProxy", "tabBarControllerSupportedInterfaceOrientations"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C7RxCocoa13DelegateProxy"
+- "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- !private "PSo8NSCoding"
+- !private "PSo26NSExtensionRequestHandling"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxCocoa31RxTabBarControllerDelegateProxy"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo18UIContentContainer"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo16UIStateRestoring"
+- "CSo18UITabBarController"
+- "PSo26UITabBarControllerDelegate"
+- !private "PSo16UITabBarDelegate"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo16UIViewController"
+- "Ps9_Hashable"
+- "CSo16_RXDelegateProxy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "3dd027b9ca6a09f48d77d0d779136556"

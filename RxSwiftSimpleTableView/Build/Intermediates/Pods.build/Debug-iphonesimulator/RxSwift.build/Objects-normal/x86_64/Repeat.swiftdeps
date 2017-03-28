@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RepeatElement"
+- "RepeatElementSink"
+provides-nominal:
+- "C7RxSwift13RepeatElement"
+- "C7RxSwift17RepeatElementSink"
+provides-member:
+- ["C7RxSwift13RepeatElement", ""]
+- ["C7RxSwift17RepeatElementSink", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "Cancelable"
+- !private "FloatLiteralType"
+- "Producer"
+- !private "IntegerLiteralType"
+- "Disposable"
+- "ObserverType"
+- "RepeatElement"
+- "Sink"
+- "ImmediateSchedulerType"
+- "RepeatElementSink"
+- !private "StringLiteralType"
+depends-member:
+- !private ["Ps9AnyObject", "RepeatElementSink"]
+- ["Ps9AnyObject", "_element"]
+- ["Ps9AnyObject", "_parent"]
+- ["Ps9AnyObject", "_scheduler"]
+- !private ["Ps9AnyObject", "forwardOn"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", ""]
+- ["P7RxSwift10Cancelable", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["P7RxSwift10Disposable", "_parent"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "forwardOn"]
+- ["P7RxSwift10Disposable", "init"]
+- ["P7RxSwift10Disposable", "run"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["O7RxSwift5Event", "deinit"]
+- !private ["O7RxSwift5Event", "next"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["P7RxSwift22ImmediateSchedulerType", "deinit"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleRecursive"]
+- ["Os5Never", "deinit"]
+- ["C7RxSwift10Observable", "Cancelable"]
+- ["C7RxSwift10Observable", "Disposable"]
+- ["C7RxSwift10Observable", "Element"]
+- ["C7RxSwift10Observable", "ImmediateSchedulerType"]
+- ["C7RxSwift10Observable", "ObserverType"]
+- !private ["C7RxSwift10Observable", "RepeatElementSink"]
+- ["C7RxSwift10Observable", "_element"]
+- ["C7RxSwift10Observable", "_scheduler"]
+- ["C7RxSwift10Observable", "init"]
+- ["C7RxSwift10Observable", "run"]
+- !private ["P7RxSwift25ObservableConvertibleType", "RepeatElementSink"]
+- ["P7RxSwift25ObservableConvertibleType", "_element"]
+- ["P7RxSwift25ObservableConvertibleType", "_scheduler"]
+- ["P7RxSwift25ObservableConvertibleType", "init"]
+- ["P7RxSwift25ObservableConvertibleType", "run"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "RepeatElementSink"]
+- ["P7RxSwift14ObservableType", "_element"]
+- ["P7RxSwift14ObservableType", "_scheduler"]
+- ["P7RxSwift14ObservableType", "init"]
+- ["P7RxSwift14ObservableType", "run"]
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift12ObserverType", "E"]
+- ["C7RxSwift8Producer", "Cancelable"]
+- ["C7RxSwift8Producer", "Disposable"]
+- ["C7RxSwift8Producer", "Element"]
+- ["C7RxSwift8Producer", "ImmediateSchedulerType"]
+- ["C7RxSwift8Producer", "ObserverType"]
+- !private ["C7RxSwift8Producer", "RepeatElementSink"]
+- ["C7RxSwift8Producer", "_element"]
+- ["C7RxSwift8Producer", "_scheduler"]
+- ["C7RxSwift8Producer", "deinit"]
+- ["C7RxSwift8Producer", "init"]
+- ["C7RxSwift8Producer", "run"]
+- ["C7RxSwift8Producer", ""]
+- ["C7RxSwift13RepeatElement", "Cancelable"]
+- ["C7RxSwift13RepeatElement", "Disposable"]
+- ["C7RxSwift13RepeatElement", "Element"]
+- ["C7RxSwift13RepeatElement", "ImmediateSchedulerType"]
+- ["C7RxSwift13RepeatElement", "ObserverType"]
+- !private ["C7RxSwift13RepeatElement", "RepeatElementSink"]
+- !private ["C7RxSwift13RepeatElement", "_element"]
+- !private ["C7RxSwift13RepeatElement", "_scheduler"]
+- ["C7RxSwift13RepeatElement", "deinit"]
+- ["C7RxSwift13RepeatElement", "init"]
+- ["C7RxSwift13RepeatElement", "run"]
+- ["C7RxSwift17RepeatElementSink", "Cancelable"]
+- ["C7RxSwift17RepeatElementSink", "Disposable"]
+- ["C7RxSwift17RepeatElementSink", "O"]
+- ["C7RxSwift17RepeatElementSink", "Parent"]
+- ["C7RxSwift17RepeatElementSink", "RepeatElement"]
+- !private ["C7RxSwift17RepeatElementSink", "_parent"]
+- ["C7RxSwift17RepeatElementSink", "deinit"]
+- !private ["C7RxSwift17RepeatElementSink", "forwardOn"]
+- ["C7RxSwift17RepeatElementSink", "init"]
+- ["C7RxSwift17RepeatElementSink", "run"]
+- ["C7RxSwift4Sink", "Cancelable"]
+- ["C7RxSwift4Sink", "Disposable"]
+- ["C7RxSwift4Sink", "O"]
+- ["C7RxSwift4Sink", "Parent"]
+- ["C7RxSwift4Sink", "RepeatElement"]
+- ["C7RxSwift4Sink", "_parent"]
+- ["C7RxSwift4Sink", "deinit"]
+- !private ["C7RxSwift4Sink", "forwardOn"]
+- ["C7RxSwift4Sink", "init"]
+- ["C7RxSwift4Sink", "run"]
+- ["C7RxSwift4Sink", ""]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["Su", "deinit"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "P7RxSwift10Cancelable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- !private "O7RxSwift5Event"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "P7RxSwift22ImmediateSchedulerType"
+- "Os5Never"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- "C7RxSwift8Producer"
+- "C7RxSwift13RepeatElement"
+- "C7RxSwift17RepeatElementSink"
+- "C7RxSwift4Sink"
+- "Vs12StaticString"
+- "Su"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "10dd4cbec44ddd18117c38338ee4f21e"

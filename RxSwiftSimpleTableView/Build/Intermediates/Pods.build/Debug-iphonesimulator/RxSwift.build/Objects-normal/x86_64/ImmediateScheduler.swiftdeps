@@ -1,0 +1,104 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- !private "ImmediateScheduler"
+- !private "AnonymousInvocable"
+- !private "AsyncLock"
+- "Disposable"
+- !private "SingleAssignmentDisposable"
+- !private "ImmediateSchedulerType"
+depends-member:
+- ["V7RxSwift18AnonymousInvocable", "deinit"]
+- !private ["V7RxSwift18AnonymousInvocable", "init"]
+- !private ["Ps9AnyObject", "AnonymousInvocable"]
+- !private ["Ps9AnyObject", "AsyncLock"]
+- !private ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- !private ["Ps9AnyObject", "_asyncLock"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "invoke"]
+- !private ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "setDisposable"]
+- !private ["Ps9AnyObject", ""]
+- ["C7RxSwift9AsyncLock", "deinit"]
+- !private ["C7RxSwift9AsyncLock", "init"]
+- !private ["C7RxSwift9AsyncLock", "invoke"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "isDisposed"]
+- !private ["P7RxSwift10Cancelable", "setDisposable"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "invoke"]
+- !private ["P7RxSwift10Disposable", "isDisposed"]
+- !private ["P7RxSwift10Disposable", "setDisposable"]
+- !private ["C7RxSwift11DisposeBase", "init"]
+- !private ["C7RxSwift11DisposeBase", "isDisposed"]
+- !private ["C7RxSwift11DisposeBase", "setDisposable"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "AnonymousInvocable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "AsyncLock"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "SingleAssignmentDisposable"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "_asyncLock"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["P7RxSwift13InvocableType", "init"]
+- !private ["P7RxSwift4Lock", "init"]
+- !private ["P7RxSwift4Lock", "invoke"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "isDisposed"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "setDisposable"]
+- !private ["P7RxSwift23SynchronizedDisposeType", "init"]
+- !private ["P7RxSwift23SynchronizedDisposeType", "invoke"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "V7RxSwift18AnonymousInvocable"
+- !private "Ps9AnyObject"
+- "C7RxSwift9AsyncLock"
+- !private "Sb"
+- !private "P7RxSwift10Cancelable"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "P7RxSwift10Disposable"
+- !private "C7RxSwift11DisposeBase"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "P7RxSwift13InvocableType"
+- !private "P7RxSwift4Lock"
+- !private "Ps25LosslessStringConvertible"
+- "C7RxSwift26SingleAssignmentDisposable"
+- !private "P7RxSwift23SynchronizedDisposeType"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "6fc82d93f79277357b5db6fa749b8e27"

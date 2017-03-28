@@ -1,0 +1,379 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DelegateProxyType"
+provides-nominal:
+- "P7RxCocoa17DelegateProxyType"
+provides-member:
+- ["P7RxCocoa17DelegateProxyType", ""]
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "installForwardDelegate"]
+- ["P7RxSwift14ObservableType", "subscribeProxyDataSource"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "UnicodeScalarType"
+- !private "!=="
+- "Disposable"
+- "AssignmentPrecedence"
+- !private "=="
+- "CastingPrecedence"
+- "Void"
+- !private "String"
+- "Bool"
+- !private "==="
+- !private "BooleanLiteralType"
+- "DelegateProxyType"
+- !private "MainScheduler"
+- "UIView"
+- "Event"
+- !private "||"
+- !private "Disposables"
+- !private "assert"
+- !private "Observable"
+- !private "bindingErrorToInterface"
+- "ObservableType"
+- "AnyObject"
+- !private "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "AnyObject"]
+- ["Ps9AnyObject", "Bool"]
+- ["Ps9AnyObject", "Disposable"]
+- !private ["Ps9AnyObject", "Disposables"]
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "MainScheduler"]
+- ["Ps9AnyObject", "Self"]
+- !private ["Ps9AnyObject", "String"]
+- !private ["Ps9AnyObject", "assert"]
+- ["Ps9AnyObject", "assignProxy"]
+- ["Ps9AnyObject", "assignedProxyFor"]
+- !private ["Ps9AnyObject", "catchError"]
+- !private ["Ps9AnyObject", "concat"]
+- ["Ps9AnyObject", "createProxyForObject"]
+- ["Ps9AnyObject", "currentDelegateFor"]
+- ["Ps9AnyObject", "deinit"]
+- !private ["Ps9AnyObject", "empty"]
+- !private ["Ps9AnyObject", "ensureExecutingOnScheduler"]
+- ["Ps9AnyObject", "forwardToDelegate"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "installForwardDelegate"]
+- !private ["Ps9AnyObject", "layoutIfNeeded"]
+- !private ["Ps9AnyObject", "never"]
+- !private ["Ps9AnyObject", "observeOn"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- !private ["Ps9AnyObject", "rx"]
+- ["Ps9AnyObject", "setCurrentDelegate"]
+- ["Ps9AnyObject", "setForwardToDelegate"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["Ps9AnyObject", "takeUntil"]
+- ["Ps9AnyObject", ""]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "layoutIfNeeded"]
+- !private ["PSo15CALayerDelegate", "rx"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "layoutIfNeeded"]
+- !private ["Ps7CVarArg", "rx"]
+- ["P7RxSwift10Cancelable", "deinit"]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "completed"]
+- !private ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layoutIfNeeded"]
+- !private ["Ps28CustomDebugStringConvertible", "rx"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layoutIfNeeded"]
+- !private ["Ps23CustomStringConvertible", "rx"]
+- ["P7RxCocoa17DelegateProxyType", "AnyObject"]
+- ["P7RxCocoa17DelegateProxyType", "Bool"]
+- ["P7RxCocoa17DelegateProxyType", "Disposable"]
+- !private ["P7RxCocoa17DelegateProxyType", "Disposables"]
+- !private ["P7RxCocoa17DelegateProxyType", "MainScheduler"]
+- ["P7RxCocoa17DelegateProxyType", "Self"]
+- !private ["P7RxCocoa17DelegateProxyType", "String"]
+- !private ["P7RxCocoa17DelegateProxyType", "assert"]
+- ["P7RxCocoa17DelegateProxyType", "assignProxy"]
+- ["P7RxCocoa17DelegateProxyType", "assignedProxyFor"]
+- ["P7RxCocoa17DelegateProxyType", "createProxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "currentDelegateFor"]
+- ["P7RxCocoa17DelegateProxyType", "forwardToDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "installForwardDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- ["P7RxCocoa17DelegateProxyType", "setCurrentDelegate"]
+- ["P7RxCocoa17DelegateProxyType", "setForwardToDelegate"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "layoutIfNeeded"]
+- !private ["Ps9Equatable", "rx"]
+- !private ["Ps5Error", "deinit"]
+- !private ["O7RxSwift5Event", "completed"]
+- !private ["O7RxSwift5Event", "deinit"]
+- !private ["O7RxSwift5Event", "error"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Sf", "deinit"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layoutIfNeeded"]
+- !private ["Ps8Hashable", "rx"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "ensureExecutingOnScheduler"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "init"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["P7RxCocoa16KVORepresentable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- ["C7RxSwift13MainScheduler", "deinit"]
+- !private ["C7RxSwift13MainScheduler", "ensureExecutingOnScheduler"]
+- !private ["C7RxSwift13MainScheduler", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layoutIfNeeded"]
+- !private ["PSo8NSCoding", "rx"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layoutIfNeeded"]
+- !private ["CSo8NSObject", "rx"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layoutIfNeeded"]
+- !private ["PSo16NSObjectProtocol", "rx"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C7RxSwift10Observable", "E"]
+- !private ["C7RxSwift10Observable", "catchError"]
+- !private ["C7RxSwift10Observable", "concat"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "empty"]
+- !private ["C7RxSwift10Observable", "never"]
+- !private ["C7RxSwift10Observable", "observeOn"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["C7RxSwift10Observable", "takeUntil"]
+- ["P7RxSwift25ObservableConvertibleType", "AnyObject"]
+- ["P7RxSwift25ObservableConvertibleType", "Bool"]
+- ["P7RxSwift25ObservableConvertibleType", "DelegateProxyType"]
+- ["P7RxSwift25ObservableConvertibleType", "Disposable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Disposables"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- ["P7RxSwift25ObservableConvertibleType", "Event"]
+- !private ["P7RxSwift25ObservableConvertibleType", "MainScheduler"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "String"]
+- ["P7RxSwift25ObservableConvertibleType", "UIView"]
+- ["P7RxSwift25ObservableConvertibleType", "Void"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "assert"]
+- !private ["P7RxSwift25ObservableConvertibleType", "bindingErrorToInterface"]
+- !private ["P7RxSwift25ObservableConvertibleType", "catchError"]
+- !private ["P7RxSwift25ObservableConvertibleType", "concat"]
+- !private ["P7RxSwift25ObservableConvertibleType", "empty"]
+- !private ["P7RxSwift25ObservableConvertibleType", "never"]
+- !private ["P7RxSwift25ObservableConvertibleType", "observeOn"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "takeUntil"]
+- ["P7RxSwift14ObservableType", "AnyObject"]
+- ["P7RxSwift14ObservableType", "Bool"]
+- ["P7RxSwift14ObservableType", "DelegateProxyType"]
+- ["P7RxSwift14ObservableType", "Disposable"]
+- !private ["P7RxSwift14ObservableType", "Disposables"]
+- ["P7RxSwift14ObservableType", "E"]
+- ["P7RxSwift14ObservableType", "Event"]
+- !private ["P7RxSwift14ObservableType", "MainScheduler"]
+- !private ["P7RxSwift14ObservableType", "Observable"]
+- !private ["P7RxSwift14ObservableType", "String"]
+- ["P7RxSwift14ObservableType", "UIView"]
+- ["P7RxSwift14ObservableType", "Void"]
+- !private ["P7RxSwift14ObservableType", "asObservable"]
+- !private ["P7RxSwift14ObservableType", "assert"]
+- !private ["P7RxSwift14ObservableType", "bindingErrorToInterface"]
+- !private ["P7RxSwift14ObservableType", "catchError"]
+- !private ["P7RxSwift14ObservableType", "concat"]
+- !private ["P7RxSwift14ObservableType", "deinit"]
+- !private ["P7RxSwift14ObservableType", "empty"]
+- !private ["P7RxSwift14ObservableType", "never"]
+- !private ["P7RxSwift14ObservableType", "observeOn"]
+- !private ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", "subscribeProxyDataSource"]
+- !private ["P7RxSwift14ObservableType", "takeUntil"]
+- ["Sq", "deinit"]
+- !private ["V7RxSwift8Reactive", "deallocated"]
+- ["V7RxSwift8Reactive", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "layoutIfNeeded"]
+- !private ["P7RxSwift18ReactiveCompatible", "rx"]
+- !private ["P7RxSwift13SchedulerType", "ensureExecutingOnScheduler"]
+- !private ["P7RxSwift13SchedulerType", "init"]
+- !private ["C7RxSwift28SerialDispatchQueueScheduler", "ensureExecutingOnScheduler"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layoutIfNeeded"]
+- !private ["PSo29UIAccessibilityIdentification", "rx"]
+- !private ["PSo12UIAppearance", "layoutIfNeeded"]
+- !private ["PSo12UIAppearance", "rx"]
+- !private ["PSo21UIAppearanceContainer", "layoutIfNeeded"]
+- !private ["PSo21UIAppearanceContainer", "rx"]
+- !private ["PSo17UICoordinateSpace", "layoutIfNeeded"]
+- !private ["PSo17UICoordinateSpace", "rx"]
+- !private ["PSo13UIDynamicItem", "layoutIfNeeded"]
+- !private ["PSo13UIDynamicItem", "rx"]
+- !private ["PSo18UIFocusEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UIFocusEnvironment", "rx"]
+- !private ["PSo11UIFocusItem", "layoutIfNeeded"]
+- !private ["PSo11UIFocusItem", "rx"]
+- !private ["CSo11UIResponder", "layoutIfNeeded"]
+- !private ["CSo11UIResponder", "rx"]
+- !private ["PSo30UIResponderStandardEditActions", "layoutIfNeeded"]
+- !private ["PSo30UIResponderStandardEditActions", "rx"]
+- !private ["PSo18UITraitEnvironment", "layoutIfNeeded"]
+- !private ["PSo18UITraitEnvironment", "rx"]
+- ["CSo6UIView", "deinit"]
+- !private ["CSo6UIView", "layoutIfNeeded"]
+- !private ["CSo6UIView", "rx"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "layoutIfNeeded"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "rx"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "layoutIfNeeded"]
+- !private ["Ps9_Hashable", "rx"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- !private "PSo15CALayerDelegate"
+- !private "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- !private "Vs9Character"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P7RxCocoa17DelegateProxyType"
+- "P7RxSwift10Disposable"
+- !private "V7RxSwift11Disposables"
+- !private "Sd"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "O7RxSwift5Event"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Sf"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "Ps25LosslessStringConvertible"
+- "C7RxSwift13MainScheduler"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "Sq"
+- "V7RxSwift8Reactive"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "P7RxSwift13SchedulerType"
+- !private "C7RxSwift28SerialDispatchQueueScheduler"
+- "Vs12StaticString"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- !private "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "49401c7ec025f62ce0f28bd804128664"

@@ -1,0 +1,592 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TailRecursiveSinkCommand"
+- "TailRecursiveSink"
+- "=="
+provides-nominal:
+- "O7RxSwift24TailRecursiveSinkCommand"
+- "C7RxSwift17TailRecursiveSink"
+provides-member:
+- ["O7RxSwift24TailRecursiveSinkCommand", ""]
+- ["C7RxSwift17TailRecursiveSink", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Disposable"
+- "BooleanLiteralType"
+- "Observable"
+- "TailRecursiveSinkCommand"
+- "IntMax"
+- "Sink"
+- "SerialDisposable"
+- "AsyncLock"
+- "Sequence"
+- !private "SingleAssignmentDisposable"
+- "=="
+- "AssignmentPrecedence"
+- "TailRecursiveSink"
+- !private ">="
+- "ObservableConvertibleType"
+- "ObserverType"
+- "Cancelable"
+- !private "FloatLiteralType"
+- !private "abstractMethod"
+- !private "-"
+- "InvocableWithValueType"
+- !private "IntegerLiteralType"
+- "InvocableScheduledItem"
+depends-member:
+- ["Ps9AnyObject", "AsyncLock"]
+- !private ["Ps9AnyObject", "InvocableScheduledItem"]
+- ["Ps9AnyObject", "SerialDisposable"]
+- !private ["Ps9AnyObject", "SingleAssignmentDisposable"]
+- ["Ps9AnyObject", "Value"]
+- ["Ps9AnyObject", "_gate"]
+- ["Ps9AnyObject", "_generators"]
+- ["Ps9AnyObject", "_isDisposed"]
+- ["Ps9AnyObject", "_subscription"]
+- !private ["Ps9AnyObject", "abstractMethod"]
+- !private ["Ps9AnyObject", "disposable"]
+- ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "disposeCommand"]
+- ["Ps9AnyObject", "done"]
+- ["Ps9AnyObject", "extract"]
+- !private ["Ps9AnyObject", "forwardOn"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "invoke"]
+- ["Ps9AnyObject", "moveNextCommand"]
+- ["Ps9AnyObject", "run"]
+- ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "setDisposable"]
+- ["Ps9AnyObject", "subscribeToNext"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Iterator"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "append"]
+- ["Sa", "deinit"]
+- !private ["Sa", "last"]
+- !private ["Sa", "removeAll"]
+- !private ["Sa", "removeLast"]
+- ["C7RxSwift9AsyncLock", "deinit"]
+- ["C7RxSwift9AsyncLock", "init"]
+- !private ["C7RxSwift9AsyncLock", "invoke"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "last"]
+- !private ["Ps23BidirectionalCollection", "removeAll"]
+- !private ["Ps23BidirectionalCollection", "removeLast"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "append"]
+- !private ["Ps22BidirectionalIndexable", "last"]
+- !private ["Ps22BidirectionalIndexable", "removeAll"]
+- !private ["Ps22BidirectionalIndexable", "removeLast"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "Iterator"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "hashValue"]
+- !private ["Ps7CVarArg", "last"]
+- !private ["Ps7CVarArg", "removeAll"]
+- !private ["Ps7CVarArg", "removeLast"]
+- ["P7RxSwift10Cancelable", "deinit"]
+- !private ["P7RxSwift10Cancelable", "disposable"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "setDisposable"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "last"]
+- !private ["Ps10Collection", "removeAll"]
+- !private ["Ps10Collection", "removeLast"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Comparable", "hashValue"]
+- !private ["Ps28CustomDebugStringConvertible", "Iterator"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "completed"]
+- !private ["Ps28CustomDebugStringConvertible", "last"]
+- !private ["Ps28CustomDebugStringConvertible", "removeAll"]
+- !private ["Ps28CustomDebugStringConvertible", "removeLast"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- !private ["Ps17CustomReflectable", "Iterator"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- !private ["Ps17CustomReflectable", "last"]
+- !private ["Ps17CustomReflectable", "removeAll"]
+- !private ["Ps17CustomReflectable", "removeLast"]
+- !private ["Ps23CustomStringConvertible", "Iterator"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_DisallowMixedSignArithmetic"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- !private ["Ps23CustomStringConvertible", "last"]
+- !private ["Ps23CustomStringConvertible", "removeAll"]
+- !private ["Ps23CustomStringConvertible", "removeLast"]
+- ["P7RxSwift10Disposable", "AsyncLock"]
+- !private ["P7RxSwift10Disposable", "InvocableScheduledItem"]
+- ["P7RxSwift10Disposable", "SerialDisposable"]
+- !private ["P7RxSwift10Disposable", "SingleAssignmentDisposable"]
+- ["P7RxSwift10Disposable", "Value"]
+- ["P7RxSwift10Disposable", "_gate"]
+- ["P7RxSwift10Disposable", "_generators"]
+- ["P7RxSwift10Disposable", "_isDisposed"]
+- ["P7RxSwift10Disposable", "_subscription"]
+- !private ["P7RxSwift10Disposable", "abstractMethod"]
+- !private ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "disposable"]
+- ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "disposeCommand"]
+- ["P7RxSwift10Disposable", "done"]
+- ["P7RxSwift10Disposable", "extract"]
+- !private ["P7RxSwift10Disposable", "forwardOn"]
+- ["P7RxSwift10Disposable", "init"]
+- ["P7RxSwift10Disposable", "invoke"]
+- ["P7RxSwift10Disposable", "moveNextCommand"]
+- ["P7RxSwift10Disposable", "run"]
+- ["P7RxSwift10Disposable", "schedule"]
+- !private ["P7RxSwift10Disposable", "setDisposable"]
+- ["P7RxSwift10Disposable", "subscribeToNext"]
+- ["P7RxSwift10Disposable", ""]
+- !private ["C7RxSwift11DisposeBase", "disposable"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- ["C7RxSwift11DisposeBase", "init"]
+- !private ["C7RxSwift11DisposeBase", "setDisposable"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- ["Ps9Equatable", "dispose"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "moveNext"]
+- ["Ps9Equatable", ""]
+- !private ["O7RxSwift5Event", "completed"]
+- ["O7RxSwift5Event", "deinit"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Iterator"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "append"]
+- !private ["Ps25ExpressibleByArrayLiteral", "last"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeAll"]
+- !private ["Ps25ExpressibleByArrayLiteral", "removeLast"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- ["Ps8Hashable", "dispose"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "moveNext"]
+- ["Ps8Hashable", ""]
+- !private ["VV10Foundation8IndexSet5Index", "deinit"]
+- !private ["V10Foundation9IndexPath", "deinit"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "append"]
+- !private ["Ps9Indexable", "last"]
+- !private ["Ps9Indexable", "removeAll"]
+- !private ["Ps9Indexable", "removeLast"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "append"]
+- !private ["Ps13IndexableBase", "last"]
+- !private ["Ps13IndexableBase", "removeAll"]
+- !private ["Ps13IndexableBase", "removeLast"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "Stride"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "Stride"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "Stride"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "Stride"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "Stride"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- ["V7RxSwift22InvocableScheduledItem", "deinit"]
+- !private ["V7RxSwift22InvocableScheduledItem", "init"]
+- !private ["P7RxSwift13InvocableType", "init"]
+- ["P7RxSwift22InvocableWithValueType", "AsyncLock"]
+- !private ["P7RxSwift22InvocableWithValueType", "InvocableScheduledItem"]
+- ["P7RxSwift22InvocableWithValueType", "SerialDisposable"]
+- !private ["P7RxSwift22InvocableWithValueType", "SingleAssignmentDisposable"]
+- ["P7RxSwift22InvocableWithValueType", "Value"]
+- !private ["P7RxSwift22InvocableWithValueType", "_gate"]
+- !private ["P7RxSwift22InvocableWithValueType", "_generators"]
+- !private ["P7RxSwift22InvocableWithValueType", "_isDisposed"]
+- !private ["P7RxSwift22InvocableWithValueType", "_subscription"]
+- !private ["P7RxSwift22InvocableWithValueType", "abstractMethod"]
+- !private ["P7RxSwift22InvocableWithValueType", "dispose"]
+- !private ["P7RxSwift22InvocableWithValueType", "disposeCommand"]
+- !private ["P7RxSwift22InvocableWithValueType", "done"]
+- !private ["P7RxSwift22InvocableWithValueType", "extract"]
+- !private ["P7RxSwift22InvocableWithValueType", "forwardOn"]
+- ["P7RxSwift22InvocableWithValueType", "invoke"]
+- !private ["P7RxSwift22InvocableWithValueType", "moveNextCommand"]
+- !private ["P7RxSwift22InvocableWithValueType", "schedule"]
+- !private ["P7RxSwift22InvocableWithValueType", "subscribeToNext"]
+- ["P7RxSwift22InvocableWithValueType", ""]
+- ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps16IteratorProtocol", "next"]
+- ["P7RxSwift4Lock", "init"]
+- !private ["P7RxSwift4Lock", "invoke"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- !private ["Ps17MutableCollection", "Iterator"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "last"]
+- !private ["Ps17MutableCollection", "removeAll"]
+- !private ["Ps17MutableCollection", "removeLast"]
+- !private ["Ps16MutableIndexable", "Iterator"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "append"]
+- !private ["Ps16MutableIndexable", "last"]
+- !private ["Ps16MutableIndexable", "removeAll"]
+- !private ["Ps16MutableIndexable", "removeLast"]
+- ["Os5Never", "deinit"]
+- !private ["C7RxSwift10Observable", "deinit"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["Sq", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "last"]
+- !private ["Ps22RandomAccessCollection", "removeAll"]
+- !private ["Ps22RandomAccessCollection", "removeLast"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "append"]
+- !private ["Ps21RandomAccessIndexable", "last"]
+- !private ["Ps21RandomAccessIndexable", "removeAll"]
+- !private ["Ps21RandomAccessIndexable", "removeLast"]
+- !private ["Ps26RangeReplaceableCollection", "Iterator"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "last"]
+- !private ["Ps26RangeReplaceableCollection", "removeAll"]
+- !private ["Ps26RangeReplaceableCollection", "removeLast"]
+- !private ["Ps25RangeReplaceableIndexable", "Iterator"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "append"]
+- !private ["Ps25RangeReplaceableIndexable", "last"]
+- !private ["Ps25RangeReplaceableIndexable", "removeAll"]
+- !private ["Ps25RangeReplaceableIndexable", "removeLast"]
+- !private ["Ps8Sequence", "Element"]
+- ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "last"]
+- !private ["Ps8Sequence", "removeAll"]
+- !private ["Ps8Sequence", "removeLast"]
+- ["C7RxSwift16SerialDisposable", "deinit"]
+- !private ["C7RxSwift16SerialDisposable", "disposable"]
+- !private ["C7RxSwift16SerialDisposable", "dispose"]
+- ["C7RxSwift16SerialDisposable", "init"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "deinit"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "init"]
+- !private ["C7RxSwift26SingleAssignmentDisposable", "setDisposable"]
+- ["C7RxSwift4Sink", "AsyncLock"]
+- ["C7RxSwift4Sink", "Cancelable"]
+- ["C7RxSwift4Sink", "Disposable"]
+- ["C7RxSwift4Sink", "E"]
+- ["C7RxSwift4Sink", "IntMax"]
+- ["C7RxSwift4Sink", "InvocableScheduledItem"]
+- ["C7RxSwift4Sink", "O"]
+- ["C7RxSwift4Sink", "Observable"]
+- ["C7RxSwift4Sink", "S"]
+- ["C7RxSwift4Sink", "SequenceGenerator"]
+- ["C7RxSwift4Sink", "SerialDisposable"]
+- !private ["C7RxSwift4Sink", "SingleAssignmentDisposable"]
+- ["C7RxSwift4Sink", "TailRecursiveSink"]
+- ["C7RxSwift4Sink", "TailRecursiveSinkCommand"]
+- ["C7RxSwift4Sink", "Value"]
+- ["C7RxSwift4Sink", "_gate"]
+- ["C7RxSwift4Sink", "_generators"]
+- ["C7RxSwift4Sink", "_isDisposed"]
+- ["C7RxSwift4Sink", "_subscription"]
+- !private ["C7RxSwift4Sink", "abstractMethod"]
+- ["C7RxSwift4Sink", "deinit"]
+- ["C7RxSwift4Sink", "dispose"]
+- ["C7RxSwift4Sink", "disposeCommand"]
+- ["C7RxSwift4Sink", "done"]
+- ["C7RxSwift4Sink", "extract"]
+- !private ["C7RxSwift4Sink", "forwardOn"]
+- ["C7RxSwift4Sink", "init"]
+- ["C7RxSwift4Sink", "invoke"]
+- ["C7RxSwift4Sink", "moveNextCommand"]
+- ["C7RxSwift4Sink", "run"]
+- ["C7RxSwift4Sink", "schedule"]
+- ["C7RxSwift4Sink", "subscribeToNext"]
+- ["C7RxSwift4Sink", ""]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["P7RxSwift23SynchronizedDisposeType", "init"]
+- !private ["P7RxSwift23SynchronizedDisposeType", "invoke"]
+- ["C7RxSwift17TailRecursiveSink", "AsyncLock"]
+- ["C7RxSwift17TailRecursiveSink", "Cancelable"]
+- ["C7RxSwift17TailRecursiveSink", "Disposable"]
+- ["C7RxSwift17TailRecursiveSink", "E"]
+- ["C7RxSwift17TailRecursiveSink", "IntMax"]
+- ["C7RxSwift17TailRecursiveSink", "InvocableScheduledItem"]
+- ["C7RxSwift17TailRecursiveSink", "O"]
+- ["C7RxSwift17TailRecursiveSink", "Observable"]
+- ["C7RxSwift17TailRecursiveSink", "S"]
+- ["C7RxSwift17TailRecursiveSink", "SequenceGenerator"]
+- ["C7RxSwift17TailRecursiveSink", "SerialDisposable"]
+- !private ["C7RxSwift17TailRecursiveSink", "SingleAssignmentDisposable"]
+- ["C7RxSwift17TailRecursiveSink", "TailRecursiveSink"]
+- ["C7RxSwift17TailRecursiveSink", "TailRecursiveSinkCommand"]
+- ["C7RxSwift17TailRecursiveSink", "Value"]
+- ["C7RxSwift17TailRecursiveSink", "_gate"]
+- ["C7RxSwift17TailRecursiveSink", "_generators"]
+- ["C7RxSwift17TailRecursiveSink", "_isDisposed"]
+- ["C7RxSwift17TailRecursiveSink", "_subscription"]
+- !private ["C7RxSwift17TailRecursiveSink", "abstractMethod"]
+- ["C7RxSwift17TailRecursiveSink", "deinit"]
+- ["C7RxSwift17TailRecursiveSink", "dispose"]
+- ["C7RxSwift17TailRecursiveSink", "disposeCommand"]
+- ["C7RxSwift17TailRecursiveSink", "done"]
+- ["C7RxSwift17TailRecursiveSink", "extract"]
+- !private ["C7RxSwift17TailRecursiveSink", "forwardOn"]
+- ["C7RxSwift17TailRecursiveSink", "init"]
+- ["C7RxSwift17TailRecursiveSink", "invoke"]
+- !private ["C7RxSwift17TailRecursiveSink", "moveNextCommand"]
+- ["C7RxSwift17TailRecursiveSink", "run"]
+- ["C7RxSwift17TailRecursiveSink", "schedule"]
+- ["C7RxSwift17TailRecursiveSink", "subscribeToNext"]
+- ["O7RxSwift24TailRecursiveSinkCommand", "=="]
+- ["O7RxSwift24TailRecursiveSinkCommand", "_toAnyHashable"]
+- ["O7RxSwift24TailRecursiveSinkCommand", "deinit"]
+- ["O7RxSwift24TailRecursiveSinkCommand", "dispose"]
+- ["O7RxSwift24TailRecursiveSinkCommand", "hashValue"]
+- ["O7RxSwift24TailRecursiveSinkCommand", "moveNext"]
+- !private ["Su", "Stride"]
+- !private ["Su", "_DisallowMixedSignArithmetic"]
+- !private ["Su", "deinit"]
+- !private ["Vs6UInt16", "Stride"]
+- !private ["Vs6UInt16", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "Stride"]
+- !private ["Vs6UInt32", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "Stride"]
+- !private ["Vs6UInt64", "_DisallowMixedSignArithmetic"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "Stride"]
+- !private ["Vs5UInt8", "_DisallowMixedSignArithmetic"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Ps15UnsignedInteger", "Stride"]
+- !private ["Ps15UnsignedInteger", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_ArrayProtocol", "Iterator"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "append"]
+- !private ["Ps14_ArrayProtocol", "last"]
+- !private ["Ps14_ArrayProtocol", "removeAll"]
+- !private ["Ps14_ArrayProtocol", "removeLast"]
+- !private ["Ps15_CVarArgAligned", "Stride"]
+- !private ["Ps15_CVarArgAligned", "_DisallowMixedSignArithmetic"]
+- !private ["Ps24_DestructorSafeContainer", "Iterator"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "append"]
+- !private ["Ps24_DestructorSafeContainer", "last"]
+- !private ["Ps24_DestructorSafeContainer", "removeAll"]
+- !private ["Ps24_DestructorSafeContainer", "removeLast"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "Stride"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisallowMixedSignArithmetic"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- ["Ps9_Hashable", "dispose"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "moveNext"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisallowMixedSignArithmetic"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisallowMixedSignArithmetic"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "Iterator"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "last"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeAll"]
+- !private ["Ps21_ObjectiveCBridgeable", "removeLast"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisallowMixedSignArithmetic"]
+- !private ["Ps11_Strideable", "hashValue"]
+- !private ["Ps14_StringElement", "Stride"]
+- !private ["Ps14_StringElement", "_DisallowMixedSignArithmetic"]
+- !private ["VSC30_SwiftNSOperatingSystemVersion", "deinit"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "C7RxSwift9AsyncLock"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- !private "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- "C7RxSwift11DisposeBase"
+- "Ps9Equatable"
+- "O7RxSwift5Event"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "VV10Foundation8IndexSet5Index"
+- !private "V10Foundation9IndexPath"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- "V7RxSwift22InvocableScheduledItem"
+- !private "P7RxSwift13InvocableType"
+- "P7RxSwift22InvocableWithValueType"
+- "Ps16IteratorProtocol"
+- "P7RxSwift4Lock"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "Os5Never"
+- !private "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift12ObserverType"
+- !private "Sq"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "Ps8Sequence"
+- "C7RxSwift16SerialDisposable"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "C7RxSwift26SingleAssignmentDisposable"
+- "C7RxSwift4Sink"
+- !private "Ps10Strideable"
+- "P7RxSwift23SynchronizedDisposeType"
+- "C7RxSwift17TailRecursiveSink"
+- "O7RxSwift24TailRecursiveSinkCommand"
+- !private "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Ps15UnsignedInteger"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+- !private "VSC30_SwiftNSOperatingSystemVersion"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "43d2a3b17ed5ad28bda288c911cf6851"

@@ -1,0 +1,607 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["CSo12UIScrollView", ""]
+- ["V7RxSwift8Reactive", ""]
+- ["CSo12UIScrollView", "createRxDelegateProxy"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "contentOffset"]
+- ["V7RxSwift8Reactive", "isScrollEnabled"]
+- ["V7RxSwift8Reactive", "didScroll"]
+- ["V7RxSwift8Reactive", "didEndDecelerating"]
+- ["V7RxSwift8Reactive", "didEndDragging"]
+- ["V7RxSwift8Reactive", "didZoom"]
+- ["V7RxSwift8Reactive", "didScrollToTop"]
+- ["V7RxSwift8Reactive", "didEndScrollingAnimation"]
+- ["V7RxSwift8Reactive", "setDelegate"]
+provides-dynamic-lookup:
+- "createRxDelegateProxy"
+depends-top-level:
+- "UIScrollView"
+- "Disposable"
+- !private "AssignmentPrecedence"
+- "Reactive"
+- "CGPoint"
+- "Void"
+- "UIScrollViewDelegate"
+- "ControlEvent"
+- "Bool"
+- !private "BooleanLiteralType"
+- "DelegateProxy"
+- "ControlProperty"
+- "RxScrollViewDelegateProxy"
+- !private "castOrThrow"
+- "UIBindingObserver"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "RxScrollViewDelegateProxy"]
+- !private ["Ps9AnyObject", "contentOffsetBehaviorSubject"]
+- !private ["Ps9AnyObject", "contentOffsetPublishSubject"]
+- ["Ps9AnyObject", "createRxDelegateProxy"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "installForwardDelegate"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "methodInvoked"]
+- !private ["Ps9AnyObject", "proxyForObject"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "IndexDistance"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["Sa", "deinit"]
+- !private ["Sa", "subscript"]
+- !private ["C7RxSwift15BehaviorSubject", "E"]
+- ["C7RxSwift15BehaviorSubject", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Index"]
+- !private ["Ps23BidirectionalCollection", "IndexDistance"]
+- !private ["Ps23BidirectionalCollection", "Indices"]
+- !private ["Ps23BidirectionalCollection", "Iterator"]
+- !private ["Ps23BidirectionalCollection", "SubSequence"]
+- !private ["Ps23BidirectionalCollection", "_Element"]
+- !private ["Ps23BidirectionalCollection", "subscript"]
+- !private ["Ps22BidirectionalIndexable", "Index"]
+- !private ["Ps22BidirectionalIndexable", "IndexDistance"]
+- !private ["Ps22BidirectionalIndexable", "Indices"]
+- !private ["Ps22BidirectionalIndexable", "Iterator"]
+- !private ["Ps22BidirectionalIndexable", "SubSequence"]
+- !private ["Ps22BidirectionalIndexable", "_Element"]
+- !private ["Ps22BidirectionalIndexable", "subscript"]
+- !private ["Vs18BidirectionalSlice", "Index"]
+- !private ["Vs18BidirectionalSlice", "IndexDistance"]
+- !private ["Vs18BidirectionalSlice", "Indices"]
+- !private ["Vs18BidirectionalSlice", "Iterator"]
+- !private ["Vs18BidirectionalSlice", "SubSequence"]
+- !private ["Vs18BidirectionalSlice", "_Element"]
+- !private ["Ps17BitwiseOperations", "IntegerLiteralType"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Ps17BitwiseOperations", "_DisabledRangeIndex"]
+- ["Sb", "deinit"]
+- !private ["PSo15CALayerDelegate", "RxScrollViewDelegateProxy"]
+- ["PSo15CALayerDelegate", "createRxDelegateProxy"]
+- !private ["VSC7CGPoint", "deinit"]
+- !private ["Ps7CVarArg", "Index"]
+- !private ["Ps7CVarArg", "IndexDistance"]
+- !private ["Ps7CVarArg", "IntegerLiteralType"]
+- !private ["Ps7CVarArg", "RxScrollViewDelegateProxy"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "SubSequence"]
+- !private ["Ps7CVarArg", "_DisabledRangeIndex"]
+- !private ["Ps7CVarArg", "_Element"]
+- !private ["Ps7CVarArg", "contentOffsetBehaviorSubject"]
+- !private ["Ps7CVarArg", "contentOffsetPublishSubject"]
+- ["Ps7CVarArg", "createRxDelegateProxy"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "installForwardDelegate"]
+- !private ["Ps7CVarArg", "methodInvoked"]
+- !private ["Ps7CVarArg", "proxyForObject"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["P7RxSwift10Cancelable", "E"]
+- !private ["Vs11ClosedRange", "deinit"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "IndexDistance"]
+- !private ["Ps10Collection", "Indices"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "IntegerLiteralType"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "_DisabledRangeIndex"]
+- ["V7RxCocoa12ControlEvent", "deinit"]
+- !private ["V7RxCocoa12ControlEvent", "init"]
+- !private ["P7RxCocoa16ControlEventType", "init"]
+- ["V7RxCocoa15ControlProperty", "deinit"]
+- !private ["V7RxCocoa15ControlProperty", "init"]
+- !private ["P7RxCocoa19ControlPropertyType", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Index"]
+- !private ["Ps28CustomDebugStringConvertible", "IndexDistance"]
+- !private ["Ps28CustomDebugStringConvertible", "RxScrollViewDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "SubSequence"]
+- !private ["Ps28CustomDebugStringConvertible", "_Element"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffsetBehaviorSubject"]
+- !private ["Ps28CustomDebugStringConvertible", "contentOffsetPublishSubject"]
+- ["Ps28CustomDebugStringConvertible", "createRxDelegateProxy"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "installForwardDelegate"]
+- !private ["Ps28CustomDebugStringConvertible", "methodInvoked"]
+- !private ["Ps28CustomDebugStringConvertible", "proxyForObject"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "IntegerLiteralType"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "Index"]
+- !private ["Ps17CustomReflectable", "IndexDistance"]
+- !private ["Ps17CustomReflectable", "IntegerLiteralType"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "SubSequence"]
+- !private ["Ps17CustomReflectable", "_DisabledRangeIndex"]
+- !private ["Ps17CustomReflectable", "_Element"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Index"]
+- !private ["Ps23CustomStringConvertible", "IndexDistance"]
+- !private ["Ps23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["Ps23CustomStringConvertible", "RxScrollViewDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "SubSequence"]
+- !private ["Ps23CustomStringConvertible", "_DisabledRangeIndex"]
+- !private ["Ps23CustomStringConvertible", "_Element"]
+- !private ["Ps23CustomStringConvertible", "contentOffsetBehaviorSubject"]
+- !private ["Ps23CustomStringConvertible", "contentOffsetPublishSubject"]
+- ["Ps23CustomStringConvertible", "createRxDelegateProxy"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "installForwardDelegate"]
+- !private ["Ps23CustomStringConvertible", "methodInvoked"]
+- !private ["Ps23CustomStringConvertible", "proxyForObject"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Vs27DefaultBidirectionalIndices", "Index"]
+- !private ["Vs27DefaultBidirectionalIndices", "Iterator"]
+- !private ["Vs27DefaultBidirectionalIndices", "SubSequence"]
+- !private ["Vs27DefaultBidirectionalIndices", "_Element"]
+- !private ["Vs26DefaultRandomAccessIndices", "Index"]
+- !private ["Vs26DefaultRandomAccessIndices", "IndexDistance"]
+- !private ["Vs26DefaultRandomAccessIndices", "Indices"]
+- !private ["Vs26DefaultRandomAccessIndices", "Iterator"]
+- !private ["Vs26DefaultRandomAccessIndices", "SubSequence"]
+- !private ["Vs26DefaultRandomAccessIndices", "_Element"]
+- !private ["C7RxCocoa13DelegateProxy", "contentOffsetBehaviorSubject"]
+- !private ["C7RxCocoa13DelegateProxy", "contentOffsetPublishSubject"]
+- ["C7RxCocoa13DelegateProxy", "deinit"]
+- !private ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["C7RxCocoa13DelegateProxy", "installForwardDelegate"]
+- !private ["C7RxCocoa13DelegateProxy", "methodInvoked"]
+- !private ["C7RxCocoa13DelegateProxy", "proxyForObject"]
+- !private ["P7RxCocoa17DelegateProxyType", "contentOffsetBehaviorSubject"]
+- !private ["P7RxCocoa17DelegateProxyType", "contentOffsetPublishSubject"]
+- !private ["P7RxCocoa17DelegateProxyType", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "installForwardDelegate"]
+- !private ["P7RxCocoa17DelegateProxyType", "proxyForObject"]
+- !private ["P7RxSwift10Disposable", "E"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["Ps9Equatable", "IntegerLiteralType"]
+- !private ["Ps9Equatable", "RxScrollViewDelegateProxy"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_DisabledRangeIndex"]
+- !private ["Ps9Equatable", "contentOffsetBehaviorSubject"]
+- !private ["Ps9Equatable", "contentOffsetPublishSubject"]
+- ["Ps9Equatable", "createRxDelegateProxy"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "installForwardDelegate"]
+- !private ["Ps9Equatable", "methodInvoked"]
+- !private ["Ps9Equatable", "proxyForObject"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Index"]
+- !private ["Ps25ExpressibleByArrayLiteral", "IndexDistance"]
+- !private ["Ps25ExpressibleByArrayLiteral", "SubSequence"]
+- !private ["Ps25ExpressibleByArrayLiteral", "_Element"]
+- !private ["Ps25ExpressibleByArrayLiteral", "subscript"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "IntegerLiteralType"]
+- !private ["Ps8Hashable", "RxScrollViewDelegateProxy"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_DisabledRangeIndex"]
+- !private ["Ps8Hashable", "contentOffsetBehaviorSubject"]
+- !private ["Ps8Hashable", "contentOffsetPublishSubject"]
+- ["Ps8Hashable", "createRxDelegateProxy"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "installForwardDelegate"]
+- !private ["Ps8Hashable", "methodInvoked"]
+- !private ["Ps8Hashable", "proxyForObject"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "IndexDistance"]
+- !private ["Ps9Indexable", "Indices"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "subscript"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "IndexDistance"]
+- !private ["Ps13IndexableBase", "Indices"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "Stride"]
+- !private ["Si", "_DisabledRangeIndex"]
+- !private ["Si", "deinit"]
+- !private ["Ps7Integer", "IntegerLiteralType"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps7Integer", "_DisabledRangeIndex"]
+- !private ["Ps17IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps17IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["P7RxCocoa16KVORepresentable", "IntegerLiteralType"]
+- !private ["P7RxCocoa16KVORepresentable", "Stride"]
+- !private ["P7RxCocoa16KVORepresentable", "_DisabledRangeIndex"]
+- !private ["Ps10MirrorPath", "IntegerLiteralType"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "_DisabledRangeIndex"]
+- !private ["Ps17MutableCollection", "Index"]
+- !private ["Ps17MutableCollection", "IndexDistance"]
+- !private ["Ps17MutableCollection", "SubSequence"]
+- !private ["Ps17MutableCollection", "_Element"]
+- !private ["Ps17MutableCollection", "subscript"]
+- !private ["Ps16MutableIndexable", "Index"]
+- !private ["Ps16MutableIndexable", "IndexDistance"]
+- !private ["Ps16MutableIndexable", "SubSequence"]
+- !private ["Ps16MutableIndexable", "_Element"]
+- !private ["Ps16MutableIndexable", "subscript"]
+- !private ["PSo8NSCoding", "RxScrollViewDelegateProxy"]
+- ["PSo8NSCoding", "createRxDelegateProxy"]
+- ["CSo8NSObject", "RxScrollViewDelegateProxy"]
+- !private ["CSo8NSObject", "contentOffset"]
+- !private ["CSo8NSObject", "contentOffsetBehaviorSubject"]
+- !private ["CSo8NSObject", "contentOffsetPublishSubject"]
+- ["CSo8NSObject", "createRxDelegateProxy"]
+- !private ["CSo8NSObject", "installForwardDelegate"]
+- !private ["CSo8NSObject", "isScrollEnabled"]
+- !private ["CSo8NSObject", "methodInvoked"]
+- !private ["CSo8NSObject", "proxyForObject"]
+- !private ["PSo16NSObjectProtocol", "RxScrollViewDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "contentOffsetBehaviorSubject"]
+- !private ["PSo16NSObjectProtocol", "contentOffsetPublishSubject"]
+- ["PSo16NSObjectProtocol", "createRxDelegateProxy"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "installForwardDelegate"]
+- !private ["PSo16NSObjectProtocol", "methodInvoked"]
+- !private ["PSo16NSObjectProtocol", "proxyForObject"]
+- !private ["PSo16NSObjectProtocol", "scrollViewDidEndDecelerating"]
+- !private ["PSo16NSObjectProtocol", "scrollViewDidEndDragging"]
+- !private ["PSo16NSObjectProtocol", "scrollViewDidEndScrollingAnimation"]
+- !private ["PSo16NSObjectProtocol", "scrollViewDidScrollToTop"]
+- !private ["PSo16NSObjectProtocol", "scrollViewDidZoom"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- !private ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- !private ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- ["Sq", "deinit"]
+- !private ["C7RxSwift14PublishSubject", "E"]
+- ["C7RxSwift14PublishSubject", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Index"]
+- !private ["Ps22RandomAccessCollection", "IndexDistance"]
+- !private ["Ps22RandomAccessCollection", "Indices"]
+- !private ["Ps22RandomAccessCollection", "Iterator"]
+- !private ["Ps22RandomAccessCollection", "SubSequence"]
+- !private ["Ps22RandomAccessCollection", "_Element"]
+- !private ["Ps22RandomAccessCollection", "subscript"]
+- !private ["Ps21RandomAccessIndexable", "Index"]
+- !private ["Ps21RandomAccessIndexable", "IndexDistance"]
+- !private ["Ps21RandomAccessIndexable", "Indices"]
+- !private ["Ps21RandomAccessIndexable", "Iterator"]
+- !private ["Ps21RandomAccessIndexable", "SubSequence"]
+- !private ["Ps21RandomAccessIndexable", "_Element"]
+- !private ["Ps21RandomAccessIndexable", "subscript"]
+- !private ["Vs17RandomAccessSlice", "Index"]
+- !private ["Vs17RandomAccessSlice", "IndexDistance"]
+- !private ["Vs17RandomAccessSlice", "Indices"]
+- !private ["Vs17RandomAccessSlice", "Iterator"]
+- !private ["Vs17RandomAccessSlice", "SubSequence"]
+- !private ["Vs17RandomAccessSlice", "_Element"]
+- !private ["Vs5Range", "deinit"]
+- !private ["Ps26RangeReplaceableCollection", "Index"]
+- !private ["Ps26RangeReplaceableCollection", "IndexDistance"]
+- !private ["Ps26RangeReplaceableCollection", "SubSequence"]
+- !private ["Ps26RangeReplaceableCollection", "_Element"]
+- !private ["Ps26RangeReplaceableCollection", "subscript"]
+- !private ["Ps25RangeReplaceableIndexable", "Index"]
+- !private ["Ps25RangeReplaceableIndexable", "IndexDistance"]
+- !private ["Ps25RangeReplaceableIndexable", "SubSequence"]
+- !private ["Ps25RangeReplaceableIndexable", "_Element"]
+- !private ["Ps25RangeReplaceableIndexable", "subscript"]
+- ["V7RxSwift8Reactive", "Base"]
+- ["V7RxSwift8Reactive", "Bool"]
+- ["V7RxSwift8Reactive", "CGPoint"]
+- ["V7RxSwift8Reactive", "ControlEvent"]
+- ["V7RxSwift8Reactive", "ControlProperty"]
+- ["V7RxSwift8Reactive", "DelegateProxy"]
+- ["V7RxSwift8Reactive", "Disposable"]
+- !private ["V7RxSwift8Reactive", "RxScrollViewDelegateProxy"]
+- ["V7RxSwift8Reactive", "UIBindingObserver"]
+- ["V7RxSwift8Reactive", "UIScrollView"]
+- ["V7RxSwift8Reactive", "UIScrollViewDelegate"]
+- ["V7RxSwift8Reactive", "Void"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "castOrThrow"]
+- ["V7RxSwift8Reactive", "contentOffset"]
+- ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "delegate"]
+- ["V7RxSwift8Reactive", "didEndDecelerating"]
+- ["V7RxSwift8Reactive", "didEndDragging"]
+- ["V7RxSwift8Reactive", "didEndScrollingAnimation"]
+- ["V7RxSwift8Reactive", "didScroll"]
+- ["V7RxSwift8Reactive", "didScrollToTop"]
+- ["V7RxSwift8Reactive", "didZoom"]
+- ["V7RxSwift8Reactive", "isScrollEnabled"]
+- ["V7RxSwift8Reactive", "setDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "RxScrollViewDelegateProxy"]
+- !private ["P7RxSwift18ReactiveCompatible", "contentOffsetBehaviorSubject"]
+- !private ["P7RxSwift18ReactiveCompatible", "contentOffsetPublishSubject"]
+- ["P7RxSwift18ReactiveCompatible", "createRxDelegateProxy"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "installForwardDelegate"]
+- !private ["P7RxSwift18ReactiveCompatible", "methodInvoked"]
+- !private ["P7RxSwift18ReactiveCompatible", "proxyForObject"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "contentOffsetBehaviorSubject"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "contentOffsetPublishSubject"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "deinit"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "init"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "installForwardDelegate"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "proxyForObject"]
+- ["V10ObjectiveC8Selector", "deinit"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "IndexDistance"]
+- !private ["Ps8Sequence", "Indices"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "IntegerLiteralType"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps13SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps12SignedNumber", "IntegerLiteralType"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["Ps12SignedNumber", "_DisabledRangeIndex"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- !private ["Ps10Strideable", "IntegerLiteralType"]
+- !private ["Ps10Strideable", "Stride"]
+- !private ["Ps10Strideable", "_DisabledRangeIndex"]
+- !private ["P7RxSwift11SubjectType", "E"]
+- !private ["P7RxSwift27SynchronizedUnsubscribeType", "E"]
+- !private ["PSo29UIAccessibilityIdentification", "RxScrollViewDelegateProxy"]
+- ["PSo29UIAccessibilityIdentification", "createRxDelegateProxy"]
+- !private ["PSo12UIAppearance", "RxScrollViewDelegateProxy"]
+- ["PSo12UIAppearance", "createRxDelegateProxy"]
+- !private ["PSo21UIAppearanceContainer", "RxScrollViewDelegateProxy"]
+- ["PSo21UIAppearanceContainer", "createRxDelegateProxy"]
+- !private ["C7RxCocoa17UIBindingObserver", "E"]
+- ["C7RxCocoa17UIBindingObserver", "deinit"]
+- !private ["C7RxCocoa17UIBindingObserver", "init"]
+- !private ["PSo17UICoordinateSpace", "RxScrollViewDelegateProxy"]
+- ["PSo17UICoordinateSpace", "createRxDelegateProxy"]
+- !private ["PSo13UIDynamicItem", "RxScrollViewDelegateProxy"]
+- ["PSo13UIDynamicItem", "createRxDelegateProxy"]
+- !private ["PSo18UIFocusEnvironment", "RxScrollViewDelegateProxy"]
+- ["PSo18UIFocusEnvironment", "createRxDelegateProxy"]
+- !private ["PSo11UIFocusItem", "RxScrollViewDelegateProxy"]
+- ["PSo11UIFocusItem", "createRxDelegateProxy"]
+- ["CSo11UIResponder", "RxScrollViewDelegateProxy"]
+- !private ["CSo11UIResponder", "contentOffset"]
+- ["CSo11UIResponder", "createRxDelegateProxy"]
+- !private ["CSo11UIResponder", "isScrollEnabled"]
+- !private ["PSo30UIResponderStandardEditActions", "RxScrollViewDelegateProxy"]
+- ["PSo30UIResponderStandardEditActions", "createRxDelegateProxy"]
+- ["CSo12UIScrollView", "RxScrollViewDelegateProxy"]
+- !private ["CSo12UIScrollView", "contentOffset"]
+- ["CSo12UIScrollView", "createRxDelegateProxy"]
+- ["CSo12UIScrollView", "deinit"]
+- !private ["CSo12UIScrollView", "isScrollEnabled"]
+- !private ["PSo20UIScrollViewDelegate", "contentOffsetBehaviorSubject"]
+- !private ["PSo20UIScrollViewDelegate", "contentOffsetPublishSubject"]
+- ["PSo20UIScrollViewDelegate", "deinit"]
+- !private ["PSo20UIScrollViewDelegate", "init"]
+- !private ["PSo20UIScrollViewDelegate", "installForwardDelegate"]
+- !private ["PSo20UIScrollViewDelegate", "proxyForObject"]
+- !private ["PSo20UIScrollViewDelegate", "scrollViewDidEndDecelerating"]
+- !private ["PSo20UIScrollViewDelegate", "scrollViewDidEndDragging"]
+- !private ["PSo20UIScrollViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- !private ["PSo20UIScrollViewDelegate", "scrollViewDidScrollToTop"]
+- !private ["PSo20UIScrollViewDelegate", "scrollViewDidZoom"]
+- !private ["PSo18UITraitEnvironment", "RxScrollViewDelegateProxy"]
+- ["PSo18UITraitEnvironment", "createRxDelegateProxy"]
+- ["CSo6UIView", "RxScrollViewDelegateProxy"]
+- !private ["CSo6UIView", "contentOffset"]
+- ["CSo6UIView", "createRxDelegateProxy"]
+- !private ["CSo6UIView", "isScrollEnabled"]
+- !private ["Ps14_ArrayProtocol", "Index"]
+- !private ["Ps14_ArrayProtocol", "IndexDistance"]
+- !private ["Ps14_ArrayProtocol", "SubSequence"]
+- !private ["Ps14_ArrayProtocol", "_Element"]
+- !private ["Ps14_ArrayProtocol", "subscript"]
+- !private ["Ps37_DefaultCustomPlaygroundQuickLookable", "RxScrollViewDelegateProxy"]
+- ["Ps37_DefaultCustomPlaygroundQuickLookable", "createRxDelegateProxy"]
+- !private ["Ps24_DestructorSafeContainer", "Index"]
+- !private ["Ps24_DestructorSafeContainer", "IndexDistance"]
+- !private ["Ps24_DestructorSafeContainer", "SubSequence"]
+- !private ["Ps24_DestructorSafeContainer", "_Element"]
+- !private ["Ps24_DestructorSafeContainer", "subscript"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "IntegerLiteralType"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "IntegerLiteralType"]
+- !private ["Ps9_Hashable", "RxScrollViewDelegateProxy"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_DisabledRangeIndex"]
+- !private ["Ps9_Hashable", "contentOffsetBehaviorSubject"]
+- !private ["Ps9_Hashable", "contentOffsetPublishSubject"]
+- ["Ps9_Hashable", "createRxDelegateProxy"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "installForwardDelegate"]
+- !private ["Ps9_Hashable", "methodInvoked"]
+- !private ["Ps9_Hashable", "proxyForObject"]
+- !private ["Ps14_Incrementable", "IntegerLiteralType"]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps14_Incrementable", "_DisabledRangeIndex"]
+- !private ["Ps8_Integer", "IntegerLiteralType"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps8_Integer", "_DisabledRangeIndex"]
+- !private ["Ps18_IntegerArithmetic", "IntegerLiteralType"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "Index"]
+- !private ["Ps21_ObjectiveCBridgeable", "IndexDistance"]
+- !private ["Ps21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["Ps21_ObjectiveCBridgeable", "_DisabledRangeIndex"]
+- !private ["Ps21_ObjectiveCBridgeable", "_Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["CSo16_RXDelegateProxy", "contentOffsetBehaviorSubject"]
+- !private ["CSo16_RXDelegateProxy", "contentOffsetPublishSubject"]
+- !private ["CSo16_RXDelegateProxy", "installForwardDelegate"]
+- !private ["CSo16_RXDelegateProxy", "methodInvoked"]
+- !private ["CSo16_RXDelegateProxy", "proxyForObject"]
+- !private ["Ps14_SignedInteger", "IntegerLiteralType"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps14_SignedInteger", "_DisabledRangeIndex"]
+- !private ["Ps11_Strideable", "IntegerLiteralType"]
+- !private ["Ps11_Strideable", "Stride"]
+- !private ["Ps11_Strideable", "_DisabledRangeIndex"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Sa"
+- "C7RxSwift15BehaviorSubject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Vs18BidirectionalSlice"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "PSo15CALayerDelegate"
+- !private "VSC7CGPoint"
+- "Ps7CVarArg"
+- !private "P7RxSwift10Cancelable"
+- !private "Vs11ClosedRange"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "V7RxCocoa12ControlEvent"
+- !private "P7RxCocoa16ControlEventType"
+- "V7RxCocoa15ControlProperty"
+- !private "P7RxCocoa19ControlPropertyType"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "Vs27DefaultBidirectionalIndices"
+- !private "Vs26DefaultRandomAccessIndices"
+- "C7RxCocoa13DelegateProxy"
+- !private "P7RxCocoa17DelegateProxyType"
+- "P7RxSwift10Disposable"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps8Hashable"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- !private "P7RxCocoa16KVORepresentable"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "Sq"
+- "C7RxSwift14PublishSubject"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Vs17RandomAccessSlice"
+- !private "Vs5Range"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "V7RxSwift8Reactive"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxCocoa25RxScrollViewDelegateProxy"
+- "V10ObjectiveC8Selector"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- !private "Ps10Strideable"
+- !private "P7RxSwift11SubjectType"
+- !private "P7RxSwift27SynchronizedUnsubscribeType"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "C7RxCocoa17UIBindingObserver"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo11UIFocusItem"
+- "CSo11UIResponder"
+- "PSo30UIResponderStandardEditActions"
+- "CSo12UIScrollView"
+- "PSo20UIScrollViewDelegate"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps14_ArrayProtocol"
+- "Ps37_DefaultCustomPlaygroundQuickLookable"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "CSo16_RXDelegateProxy"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "97a7b459b7b11dbb5bb96a85657ee717"

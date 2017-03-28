@@ -1,0 +1,70 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GroupedObservable"
+provides-nominal:
+- "V7RxSwift17GroupedObservable"
+provides-member:
+- ["V7RxSwift17GroupedObservable", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "Observable"
+- "Disposable"
+- "GroupedObservable"
+- "ObservableType"
+- "AssignmentPrecedence"
+- "ObserverType"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "subscribe"]
+- ["P7RxSwift10Disposable", "deinit"]
+- ["V7RxSwift17GroupedObservable", "Disposable"]
+- ["V7RxSwift17GroupedObservable", "E"]
+- ["V7RxSwift17GroupedObservable", "Element"]
+- ["V7RxSwift17GroupedObservable", "Key"]
+- ["V7RxSwift17GroupedObservable", "Observable"]
+- ["V7RxSwift17GroupedObservable", "ObserverType"]
+- ["V7RxSwift17GroupedObservable", "asObservable"]
+- ["V7RxSwift17GroupedObservable", "deinit"]
+- ["V7RxSwift17GroupedObservable", "init"]
+- ["V7RxSwift17GroupedObservable", "key"]
+- !private ["V7RxSwift17GroupedObservable", "source"]
+- ["V7RxSwift17GroupedObservable", "subscribe"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "key"]
+- !private ["P7RxSwift25ObservableConvertibleType", "source"]
+- ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- ["P7RxSwift14ObservableType", "E"]
+- ["P7RxSwift14ObservableType", "asObservable"]
+- !private ["P7RxSwift14ObservableType", "key"]
+- !private ["P7RxSwift14ObservableType", "source"]
+- ["P7RxSwift14ObservableType", "subscribe"]
+- ["P7RxSwift14ObservableType", ""]
+- ["P7RxSwift12ObserverType", "E"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "P7RxSwift10Disposable"
+- "V7RxSwift17GroupedObservable"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "1ccae5d3fd8c1176da8397e000b943b9"

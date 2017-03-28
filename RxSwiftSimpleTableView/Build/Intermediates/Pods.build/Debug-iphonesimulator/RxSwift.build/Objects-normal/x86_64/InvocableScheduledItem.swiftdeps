@@ -1,0 +1,45 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "InvocableScheduledItem"
+provides-nominal:
+- "V7RxSwift22InvocableScheduledItem"
+provides-member:
+- ["V7RxSwift22InvocableScheduledItem", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "InvocableWithValueType"
+- "InvocableScheduledItem"
+- "InvocableType"
+- "AssignmentPrecedence"
+depends-member:
+- ["V7RxSwift22InvocableScheduledItem", "I"]
+- ["V7RxSwift22InvocableScheduledItem", "_invocable"]
+- ["V7RxSwift22InvocableScheduledItem", "_state"]
+- ["V7RxSwift22InvocableScheduledItem", "deinit"]
+- ["V7RxSwift22InvocableScheduledItem", "init"]
+- ["V7RxSwift22InvocableScheduledItem", "invoke"]
+- !private ["P7RxSwift13InvocableType", "_invocable"]
+- !private ["P7RxSwift13InvocableType", "_state"]
+- ["P7RxSwift13InvocableType", "invoke"]
+- ["P7RxSwift13InvocableType", ""]
+- ["P7RxSwift22InvocableWithValueType", "Value"]
+- !private ["P7RxSwift22InvocableWithValueType", "invoke"]
+depends-nominal:
+- "V7RxSwift22InvocableScheduledItem"
+- "P7RxSwift13InvocableType"
+- "P7RxSwift22InvocableWithValueType"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "751f6b5b4291b67e2ab3a368d3caf32d"

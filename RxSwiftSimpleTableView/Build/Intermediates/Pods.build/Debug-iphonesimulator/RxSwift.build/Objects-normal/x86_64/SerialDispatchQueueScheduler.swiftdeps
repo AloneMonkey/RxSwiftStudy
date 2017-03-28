@@ -1,0 +1,224 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "SerialDispatchQueueScheduler"
+provides-nominal:
+- "C7RxSwift28SerialDispatchQueueScheduler"
+provides-member:
+- ["C7RxSwift28SerialDispatchQueueScheduler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "DispatchQoS"
+- "StringLiteralType"
+- "DispatchTimeInterval"
+- "DispatchQueue"
+- "Date"
+- "SerialDispatchQueueScheduler"
+- "DispatchQueueConfiguration"
+- "Foundation"
+- "SchedulerType"
+- "Void"
+- "Disposable"
+- !private "Array"
+- "String"
+- "AssignmentPrecedence"
+depends-member:
+- !private ["Ps9AnyObject", "Date"]
+- !private ["Ps9AnyObject", "DispatchQueue"]
+- !private ["Ps9AnyObject", "DispatchQueueConfiguration"]
+- !private ["Ps9AnyObject", "DispatchTimeInterval"]
+- !private ["Ps9AnyObject", "configuration"]
+- !private ["Ps9AnyObject", "global"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "now"]
+- ["Ps9AnyObject", "schedule"]
+- !private ["Ps9AnyObject", "scheduleInternal"]
+- ["Ps9AnyObject", "schedulePeriodic"]
+- ["Ps9AnyObject", "scheduleRelative"]
+- ["Ps9AnyObject", ""]
+- !private ["VE8DispatchCSo13DispatchQueue10Attributes", "Element"]
+- ["VE8DispatchCSo13DispatchQueue10Attributes", "deinit"]
+- !private ["Ps7CVarArg", "global"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "global"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "global"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["V10Foundation4Date", "deinit"]
+- !private ["V10Foundation4Date", "init"]
+- !private ["CSo14DispatchObject", "global"]
+- !private ["CSo14DispatchObject", "init"]
+- ["V8Dispatch11DispatchQoS", "deinit"]
+- !private ["V8Dispatch11DispatchQoS", "qosClass"]
+- ["CSo13DispatchQueue", "deinit"]
+- !private ["CSo13DispatchQueue", "global"]
+- !private ["CSo13DispatchQueue", "init"]
+- ["V7RxSwift26DispatchQueueConfiguration", "deinit"]
+- !private ["V7RxSwift26DispatchQueueConfiguration", "init"]
+- !private ["V7RxSwift26DispatchQueueConfiguration", "schedule"]
+- !private ["V7RxSwift26DispatchQueueConfiguration", "schedulePeriodic"]
+- !private ["V7RxSwift26DispatchQueueConfiguration", "scheduleRelative"]
+- ["O8Dispatch20DispatchTimeInterval", "deinit"]
+- !private ["O8Dispatch20DispatchTimeInterval", "nanoseconds"]
+- ["P7RxSwift10Disposable", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "Element"]
+- !private ["Ps9Equatable", "global"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "qosClass"]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "global"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "Date"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "DispatchQueue"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "DispatchQueueConfiguration"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "DispatchTimeInterval"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "configuration"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "init"]
+- ["P7RxSwift22ImmediateSchedulerType", "now"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleInternal"]
+- ["P7RxSwift22ImmediateSchedulerType", "schedulePeriodic"]
+- ["P7RxSwift22ImmediateSchedulerType", "scheduleRelative"]
+- ["P7RxSwift22ImmediateSchedulerType", ""]
+- !private ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "global"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "global"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo9OS_object", "global"]
+- !private ["CSo9OS_object", "init"]
+- !private ["Ps9OptionSet", "Element"]
+- ["Sq", "deinit"]
+- ["OV8Dispatch11DispatchQoS8QoSClass", "deinit"]
+- !private ["Ps16RawRepresentable", "Element"]
+- !private ["P7RxSwift18ReactiveCompatible", "global"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["P7RxSwift13SchedulerType", "Date"]
+- !private ["P7RxSwift13SchedulerType", "DispatchQueue"]
+- !private ["P7RxSwift13SchedulerType", "DispatchQueueConfiguration"]
+- !private ["P7RxSwift13SchedulerType", "DispatchTimeInterval"]
+- !private ["P7RxSwift13SchedulerType", "configuration"]
+- !private ["P7RxSwift13SchedulerType", "init"]
+- ["P7RxSwift13SchedulerType", "now"]
+- ["P7RxSwift13SchedulerType", "schedule"]
+- !private ["P7RxSwift13SchedulerType", "scheduleInternal"]
+- ["P7RxSwift13SchedulerType", "schedulePeriodic"]
+- ["P7RxSwift13SchedulerType", "scheduleRelative"]
+- ["P7RxSwift13SchedulerType", ""]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "Date"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "DispatchQoS"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "DispatchQueue"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "DispatchQueueConfiguration"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "DispatchTimeInterval"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "Disposable"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "Foundation"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "String"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "Time"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "TimeInterval"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "Void"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "configuration"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "deinit"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "init"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "now"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "schedule"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "scheduleInternal"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "schedulePeriodic"]
+- ["C7RxSwift28SerialDispatchQueueScheduler", "scheduleRelative"]
+- !private ["Ps10SetAlgebra", "Element"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "global"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "VE8DispatchCSo13DispatchQueue10Attributes"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "V10Foundation4Date"
+- !private "CSo14DispatchObject"
+- "V8Dispatch11DispatchQoS"
+- "CSo13DispatchQueue"
+- "V7RxSwift26DispatchQueueConfiguration"
+- "O8Dispatch20DispatchTimeInterval"
+- "P7RxSwift10Disposable"
+- "Sd"
+- !private "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "P7RxSwift22ImmediateSchedulerType"
+- !private "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo9OS_object"
+- !private "Ps9OptionSet"
+- "Sq"
+- "OV8Dispatch11DispatchQoS8QoSClass"
+- !private "Ps16RawRepresentable"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "P10Foundation20ReferenceConvertible"
+- "P7RxSwift13SchedulerType"
+- "C7RxSwift28SerialDispatchQueueScheduler"
+- !private "Ps10SetAlgebra"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "eea5d8b303bb722538344fc18a33979c"

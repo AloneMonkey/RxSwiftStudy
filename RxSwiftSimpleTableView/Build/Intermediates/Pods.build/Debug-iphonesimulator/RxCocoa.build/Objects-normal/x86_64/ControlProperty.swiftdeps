@@ -1,0 +1,265 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ControlPropertyType"
+- "ControlProperty"
+provides-nominal:
+- "P7RxCocoa19ControlPropertyType"
+- "V7RxCocoa15ControlProperty"
+provides-member:
+- ["P7RxCocoa19ControlPropertyType", ""]
+- ["V7RxCocoa15ControlProperty", ""]
+- ["P7RxCocoa19ControlPropertyType", "orEmpty"]
+provides-dynamic-lookup:
+depends-top-level:
+- "ControlPropertyType"
+- "String"
+- "ControlEvent"
+- "Disposable"
+- "AnyObserver"
+- "AssignmentPrecedence"
+- "ObserverType"
+- !private "ConcurrentMainScheduler"
+- !private "StringLiteralType"
+- "ControlProperty"
+- "Observable"
+- "ObservableType"
+- "Event"
+- !private "bindingErrorToInterface"
+- !private "??"
+depends-member:
+- !private ["Ps9AnyObject", "E"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "instance"]
+- !private ["Ps9AnyObject", "map"]
+- !private ["Ps9AnyObject", "skip"]
+- !private ["Ps9AnyObject", "subscribe"]
+- !private ["V7RxSwift11AnyObserver", "E"]
+- ["V7RxSwift11AnyObserver", "deinit"]
+- !private ["V7RxSwift11AnyObserver", "mapObserver"]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- ["C7RxSwift23ConcurrentMainScheduler", "deinit"]
+- !private ["C7RxSwift23ConcurrentMainScheduler", "instance"]
+- ["V7RxCocoa12ControlEvent", "deinit"]
+- !private ["V7RxCocoa12ControlEvent", "init"]
+- !private ["P7RxCocoa16ControlEventType", "init"]
+- ["V7RxCocoa15ControlProperty", "AnyObserver"]
+- !private ["V7RxCocoa15ControlProperty", "ConcurrentMainScheduler"]
+- ["V7RxCocoa15ControlProperty", "ControlEvent"]
+- ["V7RxCocoa15ControlProperty", "ControlProperty"]
+- ["V7RxCocoa15ControlProperty", "Disposable"]
+- ["V7RxCocoa15ControlProperty", "E"]
+- ["V7RxCocoa15ControlProperty", "Event"]
+- ["V7RxCocoa15ControlProperty", "Observable"]
+- ["V7RxCocoa15ControlProperty", "ObservableType"]
+- ["V7RxCocoa15ControlProperty", "ObserverType"]
+- ["V7RxCocoa15ControlProperty", "PropertyType"]
+- ["V7RxCocoa15ControlProperty", "_valueSink"]
+- ["V7RxCocoa15ControlProperty", "_values"]
+- ["V7RxCocoa15ControlProperty", "asControlProperty"]
+- ["V7RxCocoa15ControlProperty", "asObservable"]
+- !private ["V7RxCocoa15ControlProperty", "bindingErrorToInterface"]
+- ["V7RxCocoa15ControlProperty", "changed"]
+- ["V7RxCocoa15ControlProperty", "deinit"]
+- ["V7RxCocoa15ControlProperty", "init"]
+- ["V7RxCocoa15ControlProperty", "on"]
+- ["V7RxCocoa15ControlProperty", "subscribe"]
+- !private ["P7RxCocoa19ControlPropertyType", "AnyObserver"]
+- !private ["P7RxCocoa19ControlPropertyType", "ConcurrentMainScheduler"]
+- !private ["P7RxCocoa19ControlPropertyType", "ControlEvent"]
+- ["P7RxCocoa19ControlPropertyType", "ControlProperty"]
+- ["P7RxCocoa19ControlPropertyType", "E"]
+- !private ["P7RxCocoa19ControlPropertyType", "Observable"]
+- ["P7RxCocoa19ControlPropertyType", "String"]
+- !private ["P7RxCocoa19ControlPropertyType", "_valueSink"]
+- !private ["P7RxCocoa19ControlPropertyType", "_values"]
+- ["P7RxCocoa19ControlPropertyType", "asControlProperty"]
+- ["P7RxCocoa19ControlPropertyType", "asObservable"]
+- !private ["P7RxCocoa19ControlPropertyType", "bindingErrorToInterface"]
+- !private ["P7RxCocoa19ControlPropertyType", "init"]
+- ["P7RxCocoa19ControlPropertyType", "on"]
+- ["P7RxCocoa19ControlPropertyType", "orEmpty"]
+- ["P7RxCocoa19ControlPropertyType", "subscribe"]
+- ["P7RxCocoa19ControlPropertyType", ""]
+- ["Ps28CustomDebugStringConvertible", "completed"]
+- ["Ps28CustomDebugStringConvertible", "error"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "next"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps5Error", "deinit"]
+- ["O7RxSwift5Event", "completed"]
+- ["O7RxSwift5Event", "deinit"]
+- ["O7RxSwift5Event", "error"]
+- ["O7RxSwift5Event", "next"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "instance"]
+- ["Si", "deinit"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["C7RxSwift10Observable", "E"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["C7RxSwift10Observable", "map"]
+- !private ["C7RxSwift10Observable", "skip"]
+- !private ["C7RxSwift10Observable", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "AnyObserver"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ConcurrentMainScheduler"]
+- !private ["P7RxSwift25ObservableConvertibleType", "ControlEvent"]
+- ["P7RxSwift25ObservableConvertibleType", "ControlProperty"]
+- ["P7RxSwift25ObservableConvertibleType", "E"]
+- !private ["P7RxSwift25ObservableConvertibleType", "Observable"]
+- ["P7RxSwift25ObservableConvertibleType", "String"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_valueSink"]
+- !private ["P7RxSwift25ObservableConvertibleType", "_values"]
+- ["P7RxSwift25ObservableConvertibleType", "asControlProperty"]
+- ["P7RxSwift25ObservableConvertibleType", "asObservable"]
+- !private ["P7RxSwift25ObservableConvertibleType", "bindingErrorToInterface"]
+- !private ["P7RxSwift25ObservableConvertibleType", "init"]
+- !private ["P7RxSwift25ObservableConvertibleType", "map"]
+- ["P7RxSwift25ObservableConvertibleType", "on"]
+- !private ["P7RxSwift25ObservableConvertibleType", "skip"]
+- ["P7RxSwift25ObservableConvertibleType", "subscribe"]
+- !private ["P7RxSwift25ObservableConvertibleType", "subscribeOn"]
+- ["P7RxSwift25ObservableConvertibleType", ""]
+- !private ["P7RxSwift14ObservableType", "AnyObserver"]
+- !private ["P7RxSwift14ObservableType", "ConcurrentMainScheduler"]
+- !private ["P7RxSwift14ObservableType", "ControlEvent"]
+- ["P7RxSwift14ObservableType", "ControlProperty"]
+- ["P7RxSwift14ObservableType", "E"]
+- !private ["P7RxSwift14ObservableType", "Observable"]
+- ["P7RxSwift14ObservableType", "String"]
+- !private ["P7RxSwift14ObservableType", "_valueSink"]
+- !private ["P7RxSwift14ObservableType", "_values"]
+- ["P7RxSwift14ObservableType", "asControlProperty"]
+- ["P7RxSwift14ObservableType", "asObservable"]
+- !private ["P7RxSwift14ObservableType", "bindingErrorToInterface"]
+- !private ["P7RxSwift14ObservableType", "init"]
+- !private ["P7RxSwift14ObservableType", "map"]
+- ["P7RxSwift14ObservableType", "on"]
+- !private ["P7RxSwift14ObservableType", "skip"]
+- ["P7RxSwift14ObservableType", "subscribe"]
+- !private ["P7RxSwift14ObservableType", "subscribeOn"]
+- ["P7RxSwift14ObservableType", ""]
+- !private ["P7RxSwift12ObserverType", "AnyObserver"]
+- !private ["P7RxSwift12ObserverType", "ConcurrentMainScheduler"]
+- !private ["P7RxSwift12ObserverType", "ControlEvent"]
+- ["P7RxSwift12ObserverType", "ControlProperty"]
+- ["P7RxSwift12ObserverType", "E"]
+- !private ["P7RxSwift12ObserverType", "Observable"]
+- ["P7RxSwift12ObserverType", "String"]
+- !private ["P7RxSwift12ObserverType", "_valueSink"]
+- !private ["P7RxSwift12ObserverType", "_values"]
+- ["P7RxSwift12ObserverType", "asControlProperty"]
+- ["P7RxSwift12ObserverType", "asObservable"]
+- !private ["P7RxSwift12ObserverType", "asObserver"]
+- !private ["P7RxSwift12ObserverType", "bindingErrorToInterface"]
+- !private ["P7RxSwift12ObserverType", "init"]
+- !private ["P7RxSwift12ObserverType", "mapObserver"]
+- ["P7RxSwift12ObserverType", "on"]
+- ["P7RxSwift12ObserverType", "subscribe"]
+- ["P7RxSwift12ObserverType", ""]
+- !private ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift13SchedulerType", "instance"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- "V7RxSwift11AnyObserver"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- "C7RxSwift23ConcurrentMainScheduler"
+- "V7RxCocoa12ControlEvent"
+- !private "P7RxCocoa16ControlEventType"
+- "V7RxCocoa15ControlProperty"
+- "P7RxCocoa19ControlPropertyType"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- !private "Ps9Equatable"
+- "Ps5Error"
+- "O7RxSwift5Event"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- !private "P7RxSwift22ImmediateSchedulerType"
+- "Si"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "C7RxSwift10Observable"
+- "P7RxSwift25ObservableConvertibleType"
+- "P7RxSwift14ObservableType"
+- "P7RxSwift12ObserverType"
+- !private "Sq"
+- !private "P7RxSwift18ReactiveCompatible"
+- !private "P7RxSwift13SchedulerType"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "c264913802dce497cf305ce7fa80ab6d"

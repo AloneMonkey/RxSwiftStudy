@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'RxSwiftTableViewSection' do
+	
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxDataSources'
+
+end

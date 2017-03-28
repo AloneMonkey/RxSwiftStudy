@@ -1,0 +1,101 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["V7RxSwift8Reactive", ""]
+- ["V7RxSwift8Reactive", "notification"]
+provides-dynamic-lookup:
+depends-top-level:
+- "Notification"
+- "AnyObject"
+- !private "Disposables"
+- "NotificationCenter"
+- "Reactive"
+- "Observable"
+depends-member:
+- !private ["Ps9AnyObject", "create"]
+- !private ["V7RxSwift11AnyObserver", "deinit"]
+- !private ["V7RxSwift11AnyObserver", "on"]
+- !private ["P7RxSwift10Cancelable", "deinit"]
+- ["Ps28CustomDebugStringConvertible", "Name"]
+- !private ["Ps28CustomDebugStringConvertible", "next"]
+- ["Ps17CustomReflectable", "Name"]
+- ["Ps23CustomStringConvertible", "Name"]
+- !private ["V7RxSwift11Disposables", "create"]
+- ["Ps9Equatable", "Name"]
+- !private ["O7RxSwift5Event", "deinit"]
+- !private ["O7RxSwift5Event", "next"]
+- ["Ps8Hashable", "Name"]
+- !private ["CSo8NSObject", "addObserver"]
+- !private ["CSo8NSObject", "removeObserver"]
+- !private ["PSo16NSObjectProtocol", "deinit"]
+- ["V10Foundation12Notification", "Name"]
+- !private ["V10Foundation12Notification", "deinit"]
+- !private ["CSo18NotificationCenter", "addObserver"]
+- !private ["CSo18NotificationCenter", "removeObserver"]
+- !private ["C7RxSwift10Observable", "create"]
+- ["C7RxSwift10Observable", "deinit"]
+- !private ["P7RxSwift25ObservableConvertibleType", "create"]
+- !private ["P7RxSwift14ObservableType", "create"]
+- !private ["P7RxSwift12ObserverType", "on"]
+- ["Sq", "deinit"]
+- ["V7RxSwift8Reactive", "AnyObject"]
+- !private ["V7RxSwift8Reactive", "Disposables"]
+- ["V7RxSwift8Reactive", "Notification"]
+- ["V7RxSwift8Reactive", "NotificationCenter"]
+- ["V7RxSwift8Reactive", "Observable"]
+- !private ["V7RxSwift8Reactive", "base"]
+- !private ["V7RxSwift8Reactive", "deinit"]
+- ["V7RxSwift8Reactive", "notification"]
+- ["P10Foundation20ReferenceConvertible", "Name"]
+- ["Ps9_Hashable", "Name"]
+- ["Ps21_ObjectiveCBridgeable", "Name"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "V7RxSwift11AnyObserver"
+- !private "P7RxSwift10Cancelable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- !private "V7RxSwift11Disposables"
+- "Ps9Equatable"
+- !private "O7RxSwift5Event"
+- "Ps8Hashable"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- "V10Foundation12Notification"
+- !private "CSo18NotificationCenter"
+- "C7RxSwift10Observable"
+- !private "P7RxSwift25ObservableConvertibleType"
+- !private "P7RxSwift14ObservableType"
+- !private "P7RxSwift12ObserverType"
+- "Sq"
+- "V7RxSwift8Reactive"
+- "P10Foundation20ReferenceConvertible"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "30b2b98b9485879e2d1f5dc41fc0592a"

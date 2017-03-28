@@ -1,0 +1,263 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AnyRecursiveScheduler"
+- "RecursiveImmediateScheduler"
+provides-nominal:
+- "C7RxSwift21AnyRecursiveScheduler"
+- "C7RxSwift27RecursiveImmediateScheduler"
+provides-member:
+- ["C7RxSwift21AnyRecursiveScheduler", ""]
+- ["C7RxSwift27RecursiveImmediateScheduler", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "SchedulerType"
+- "SpinLock"
+- "RecursiveImmediateScheduler"
+- !private "ScheduleState"
+- "StringLiteralType"
+- !private "Disposable"
+- !private "Disposables"
+- "AnyRecursiveScheduler"
+- "RecursiveLock"
+- !private "rxFatalError"
+- "AssignmentPrecedence"
+- "ImmediateSchedulerType"
+- "CompositeDisposable"
+- "RxTimeInterval"
+- "Void"
+depends-member:
+- ["Ps9AnyObject", "CompositeDisposable"]
+- !private ["Ps9AnyObject", "Disposables"]
+- !private ["Ps9AnyObject", "DisposeKey"]
+- ["Ps9AnyObject", "RecursiveLock"]
+- ["Ps9AnyObject", "SpinLock"]
+- !private ["Ps9AnyObject", "_action"]
+- !private ["Ps9AnyObject", "_group"]
+- !private ["Ps9AnyObject", "_lock"]
+- !private ["Ps9AnyObject", "_scheduler"]
+- !private ["Ps9AnyObject", "calculateLocked"]
+- !private ["Ps9AnyObject", "dispose"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "insert"]
+- !private ["Ps9AnyObject", "isDisposed"]
+- !private ["Ps9AnyObject", "performLocked"]
+- !private ["Ps9AnyObject", "remove"]
+- !private ["Ps9AnyObject", "rxFatalError"]
+- !private ["Ps9AnyObject", "schedule"]
+- ["Ps9AnyObject", ""]
+- ["C7RxSwift21AnyRecursiveScheduler", "Action"]
+- ["C7RxSwift21AnyRecursiveScheduler", "AnyRecursiveScheduler"]
+- ["C7RxSwift21AnyRecursiveScheduler", "CompositeDisposable"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "Disposable"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "Disposables"]
+- ["C7RxSwift21AnyRecursiveScheduler", "RecursiveLock"]
+- ["C7RxSwift21AnyRecursiveScheduler", "RxTimeInterval"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "ScheduleState"]
+- ["C7RxSwift21AnyRecursiveScheduler", "SchedulerType"]
+- ["C7RxSwift21AnyRecursiveScheduler", "State"]
+- ["C7RxSwift21AnyRecursiveScheduler", "Void"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "_action"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "_group"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "_lock"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "_scheduler"]
+- ["C7RxSwift21AnyRecursiveScheduler", "deinit"]
+- ["C7RxSwift21AnyRecursiveScheduler", "dispose"]
+- ["C7RxSwift21AnyRecursiveScheduler", "init"]
+- !private ["C7RxSwift21AnyRecursiveScheduler", "rxFatalError"]
+- ["C7RxSwift21AnyRecursiveScheduler", "schedule"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "calculateLocked"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "performLocked"]
+- !private ["P7RxSwift10Cancelable", "DisposeKey"]
+- !private ["P7RxSwift10Cancelable", "dispose"]
+- ["P7RxSwift10Cancelable", "init"]
+- !private ["P7RxSwift10Cancelable", "insert"]
+- !private ["P7RxSwift10Cancelable", "isDisposed"]
+- !private ["P7RxSwift10Cancelable", "remove"]
+- !private ["Ps10Comparable", "init"]
+- !private ["C7RxSwift19CompositeDisposable", "DisposeKey"]
+- ["C7RxSwift19CompositeDisposable", "deinit"]
+- !private ["C7RxSwift19CompositeDisposable", "dispose"]
+- ["C7RxSwift19CompositeDisposable", "init"]
+- !private ["C7RxSwift19CompositeDisposable", "insert"]
+- !private ["C7RxSwift19CompositeDisposable", "isDisposed"]
+- !private ["C7RxSwift19CompositeDisposable", "remove"]
+- !private ["Ps28CustomDebugStringConvertible", "calculateLocked"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "performLocked"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "calculateLocked"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "performLocked"]
+- !private ["P7RxSwift10Disposable", "DisposeKey"]
+- ["P7RxSwift10Disposable", "deinit"]
+- !private ["P7RxSwift10Disposable", "dispose"]
+- ["P7RxSwift10Disposable", "init"]
+- !private ["P7RxSwift10Disposable", "insert"]
+- !private ["P7RxSwift10Disposable", "isDisposed"]
+- !private ["P7RxSwift10Disposable", "remove"]
+- !private ["V7RxSwift11Disposables", "create"]
+- !private ["C7RxSwift11DisposeBase", "DisposeKey"]
+- !private ["C7RxSwift11DisposeBase", "dispose"]
+- ["C7RxSwift11DisposeBase", "init"]
+- !private ["C7RxSwift11DisposeBase", "insert"]
+- !private ["C7RxSwift11DisposeBase", "isDisposed"]
+- !private ["C7RxSwift11DisposeBase", "remove"]
+- !private ["VC7RxSwift19CompositeDisposable10DisposeKey", "deinit"]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "calculateLocked"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "performLocked"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "calculateLocked"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "performLocked"]
+- ["P7RxSwift22ImmediateSchedulerType", "deinit"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "schedule"]
+- !private ["P7RxSwift22ImmediateSchedulerType", "scheduleRelative"]
+- !private ["P7RxSwift4Lock", "calculateLocked"]
+- ["P7RxSwift4Lock", "init"]
+- !private ["P7RxSwift4Lock", "performLocked"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSLocking", "calculateLocked"]
+- ["PSo9NSLocking", "init"]
+- !private ["PSo9NSLocking", "performLocked"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "calculateLocked"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "performLocked"]
+- !private ["PSo16NSObjectProtocol", "calculateLocked"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "performLocked"]
+- !private ["CSo15NSRecursiveLock", "calculateLocked"]
+- ["CSo15NSRecursiveLock", "deinit"]
+- ["CSo15NSRecursiveLock", "init"]
+- !private ["CSo15NSRecursiveLock", "performLocked"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "calculateLocked"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- !private ["P7RxSwift18ReactiveCompatible", "performLocked"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "Action"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "CompositeDisposable"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "Disposable"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "Disposables"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "ImmediateSchedulerType"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "ScheduleState"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "SpinLock"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "State"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "Void"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "_action"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "_group"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "_lock"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "_scheduler"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "deinit"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "dispose"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "init"]
+- !private ["C7RxSwift27RecursiveImmediateScheduler", "rxFatalError"]
+- ["C7RxSwift27RecursiveImmediateScheduler", "schedule"]
+- ["P7RxSwift13SchedulerType", "deinit"]
+- !private ["P7RxSwift13SchedulerType", "schedule"]
+- !private ["P7RxSwift13SchedulerType", "scheduleRelative"]
+- !private ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "calculateLocked"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "performLocked"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C7RxSwift21AnyRecursiveScheduler"
+- !private "Sb"
+- "Ps7CVarArg"
+- "P7RxSwift10Cancelable"
+- !private "Ps10Comparable"
+- "C7RxSwift19CompositeDisposable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "P7RxSwift10Disposable"
+- !private "V7RxSwift11Disposables"
+- "C7RxSwift11DisposeBase"
+- !private "VC7RxSwift19CompositeDisposable10DisposeKey"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "P7RxSwift22ImmediateSchedulerType"
+- "P7RxSwift4Lock"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo9NSLocking"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "CSo15NSRecursiveLock"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Os5Never"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxSwift27RecursiveImmediateScheduler"
+- "P7RxSwift13SchedulerType"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+interface-hash: "821265dee6da8d210d6170cd3de63930"

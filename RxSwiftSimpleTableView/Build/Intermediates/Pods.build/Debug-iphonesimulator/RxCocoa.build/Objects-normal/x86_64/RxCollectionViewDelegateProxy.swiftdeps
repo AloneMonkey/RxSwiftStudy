@@ -1,0 +1,178 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCollectionViewDelegateProxy"
+provides-nominal:
+- "C7RxCocoa29RxCollectionViewDelegateProxy"
+provides-member:
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", ""]
+provides-dynamic-lookup:
+- "collectionView"
+depends-top-level:
+- "AnyObject"
+- "UICollectionView"
+- "RxScrollViewDelegateProxy"
+- "RxCollectionViewDelegateProxy"
+- !private "castOrFatalError"
+- "UICollectionViewDelegateFlowLayout"
+- "AssignmentPrecedence"
+- "UICollectionViewDelegate"
+depends-member:
+- !private ["Ps9AnyObject", "castOrFatalError"]
+- ["Ps9AnyObject", "collectionView"]
+- ["Ps9AnyObject", "deinit"]
+- ["Ps9AnyObject", "indexPathForPreferredFocusedView"]
+- ["Ps9AnyObject", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "castOrFatalError"]
+- ["Ps7CVarArg", "collectionView"]
+- ["Ps7CVarArg", "indexPathForPreferredFocusedView"]
+- ["Ps7CVarArg", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "castOrFatalError"]
+- ["Ps28CustomDebugStringConvertible", "collectionView"]
+- ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedView"]
+- ["Ps28CustomDebugStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "castOrFatalError"]
+- ["Ps23CustomStringConvertible", "collectionView"]
+- ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedView"]
+- ["Ps23CustomStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", ""]
+- ["C7RxCocoa13DelegateProxy", "AnyObject"]
+- ["C7RxCocoa13DelegateProxy", "UICollectionView"]
+- !private ["C7RxCocoa13DelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa13DelegateProxy", "collectionView"]
+- ["C7RxCocoa13DelegateProxy", "indexPathForPreferredFocusedView"]
+- ["C7RxCocoa13DelegateProxy", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["C7RxCocoa13DelegateProxy", "init"]
+- !private ["P7RxCocoa17DelegateProxyType", "castOrFatalError"]
+- ["P7RxCocoa17DelegateProxyType", "collectionView"]
+- ["P7RxCocoa17DelegateProxyType", "indexPathForPreferredFocusedView"]
+- ["P7RxCocoa17DelegateProxyType", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["P7RxCocoa17DelegateProxyType", "init"]
+- ["P7RxCocoa17DelegateProxyType", ""]
+- !private ["Ps9Equatable", "castOrFatalError"]
+- ["Ps9Equatable", "collectionView"]
+- ["Ps9Equatable", "indexPathForPreferredFocusedView"]
+- ["Ps9Equatable", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "castOrFatalError"]
+- ["Ps8Hashable", "collectionView"]
+- ["Ps8Hashable", "indexPathForPreferredFocusedView"]
+- ["Ps8Hashable", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "UICollectionView"]
+- !private ["CSo8NSObject", "castOrFatalError"]
+- ["CSo8NSObject", "collectionView"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedView"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedViewInCollectionView"]
+- !private ["PSo16NSObjectProtocol", "castOrFatalError"]
+- ["PSo16NSObjectProtocol", "collectionView"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedView"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["Sq", "deinit"]
+- !private ["P7RxSwift18ReactiveCompatible", "castOrFatalError"]
+- ["P7RxSwift18ReactiveCompatible", "collectionView"]
+- ["P7RxSwift18ReactiveCompatible", "indexPathForPreferredFocusedView"]
+- ["P7RxSwift18ReactiveCompatible", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["P7RxSwift18ReactiveCompatible", "init"]
+- ["P7RxSwift18ReactiveCompatible", ""]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "AnyObject"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "UICollectionView"]
+- !private ["C7RxCocoa29RxCollectionViewDelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "collectionView"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "deinit"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "indexPathForPreferredFocusedView"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["C7RxCocoa29RxCollectionViewDelegateProxy", "init"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "AnyObject"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "UICollectionView"]
+- !private ["C7RxCocoa25RxScrollViewDelegateProxy", "castOrFatalError"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "collectionView"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "deinit"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "indexPathForPreferredFocusedView"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", "init"]
+- ["C7RxCocoa25RxScrollViewDelegateProxy", ""]
+- !private ["PSo24UICollectionViewDelegate", "castOrFatalError"]
+- ["PSo24UICollectionViewDelegate", "collectionView"]
+- ["PSo24UICollectionViewDelegate", "indexPathForPreferredFocusedView"]
+- ["PSo24UICollectionViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["PSo24UICollectionViewDelegate", ""]
+- !private ["PSo34UICollectionViewDelegateFlowLayout", "castOrFatalError"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "collectionView"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "indexPathForPreferredFocusedView"]
+- ["PSo34UICollectionViewDelegateFlowLayout", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["PSo34UICollectionViewDelegateFlowLayout", ""]
+- !private ["PSo20UIScrollViewDelegate", "castOrFatalError"]
+- ["PSo20UIScrollViewDelegate", "collectionView"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedView"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["PSo20UIScrollViewDelegate", "init"]
+- ["PSo20UIScrollViewDelegate", ""]
+- !private ["Ps9_Hashable", "castOrFatalError"]
+- ["Ps9_Hashable", "collectionView"]
+- ["Ps9_Hashable", "indexPathForPreferredFocusedView"]
+- ["Ps9_Hashable", "indexPathForPreferredFocusedViewInCollectionView"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", ""]
+- ["CSo16_RXDelegateProxy", "AnyObject"]
+- ["CSo16_RXDelegateProxy", "UICollectionView"]
+- !private ["CSo16_RXDelegateProxy", "castOrFatalError"]
+- ["CSo16_RXDelegateProxy", "collectionView"]
+- ["CSo16_RXDelegateProxy", "indexPathForPreferredFocusedView"]
+- ["CSo16_RXDelegateProxy", "indexPathForPreferredFocusedViewInCollectionView"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "C7RxCocoa13DelegateProxy"
+- "P7RxCocoa17DelegateProxyType"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Sq"
+- "P7RxSwift18ReactiveCompatible"
+- "C7RxCocoa29RxCollectionViewDelegateProxy"
+- "C7RxCocoa25RxScrollViewDelegateProxy"
+- "PSo24UICollectionViewDelegate"
+- "PSo34UICollectionViewDelegateFlowLayout"
+- "PSo20UIScrollViewDelegate"
+- "Ps9_Hashable"
+- "CSo16_RXDelegateProxy"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxCocoa.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/Build/Intermediates/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+interface-hash: "efdecc945b60b43c1a6bee9265ffac5d"
