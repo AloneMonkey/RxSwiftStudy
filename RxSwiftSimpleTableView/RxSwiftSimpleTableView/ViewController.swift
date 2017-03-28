@@ -34,6 +34,10 @@ class ViewController: UIViewController {
             .subscribe(
                 onNext:{
                     value in
+                    if let selectedRowIndexPath = self.tableview.indexPathForSelectedRow {
+                        self.tableview.deselectRow(at: selectedRowIndexPath, animated: true)
+                    }
+                    
                     print("click \(value)")
                 }
             )
