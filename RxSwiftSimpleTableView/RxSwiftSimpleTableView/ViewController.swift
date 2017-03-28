@@ -29,6 +29,8 @@ class ViewController: UIViewController {
                 cell.textLabel?.text = "\(elememt) @row \(row)"
             }.disposed(by: disposeBag)
         
+        tableview.deselectRow(at: <#T##IndexPath#>, animated: <#T##Bool#>)
+        
         tableview.rx
             .modelSelected(String.self)
             .subscribe(

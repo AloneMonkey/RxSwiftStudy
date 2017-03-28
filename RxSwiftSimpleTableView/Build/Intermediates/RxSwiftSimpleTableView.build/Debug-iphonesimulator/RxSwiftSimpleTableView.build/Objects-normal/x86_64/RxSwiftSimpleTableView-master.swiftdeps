@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.0.2 (swiftlang-800.0.63 clang-800.0.42.1)"
-options: "f02f3cbf99b5a7acbcddb18d2a34fca2"
-build_time: [544028839, 555411000]
-inputs:
-  "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/RxSwiftSimpleTableView/ViewController.swift": [544025943, 0]
-  "/Users/monkey/Documents/swift/RxSwiftStudy/RxSwiftSimpleTableView/RxSwiftSimpleTableView/AppDelegate.swift": [544019673, 0]

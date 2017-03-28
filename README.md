@@ -13,4 +13,6 @@
 
 * [RxSwift学习之旅 - Observable 和 Driver](http://www.alonemonkey.com/2017/03/28/rxswift-part-six/)
 
+* [RxSwift学习之旅 - UITableView操作](http://www.alonemonkey.com/2017/03/29/rxswift-part-seven/)
+
 更新中......
