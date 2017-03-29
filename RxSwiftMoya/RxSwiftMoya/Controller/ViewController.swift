@@ -8,7 +8,6 @@
 
 import UIKit
 import RxSwift
-import RxCocoa
 import Moya_ObjectMapper
 
 class ViewController: UIViewController {
