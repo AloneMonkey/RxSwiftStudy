@@ -17,7 +17,7 @@ class LoginViewModel {
     let registered: Observable<Bool>
     let registering: Observable<Bool>
     
-    let registerTap = Variable<Void>()
+    let registerTap = PublishSubject<Void>()
     
     init(input:(
         username: Observable<String>,
