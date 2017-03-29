@@ -18,8 +18,8 @@
 		8C01E7AA1E8BB42000696869 /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01E7A91E8BB42000696869 /* Status.swift */; };
 		8C01E7AD1E8BB65D00696869 /* Response+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01E7AC1E8BB65D00696869 /* Response+ObjectMapper.swift */; };
 		8C01E7AF1E8BB94D00696869 /* Observable+ObjectMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01E7AE1E8BB94D00696869 /* Observable+ObjectMapper.swift */; };
-		8C01E7B41E8BC28000696869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01E7B31E8BC28000696869 /* ViewController.swift */; };
 		8C01E7B61E8BC2AE00696869 /* UserListError.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C01E7B51E8BC2AE00696869 /* UserListError.json */; };
+		8C01E7B81E8BDB9700696869 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C01E7B71E8BDB9700696869 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +37,8 @@
 		8C01E7A91E8BB42000696869 /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Status.swift; path = Model/Status.swift; sourceTree = "<group>"; };
 		8C01E7AC1E8BB65D00696869 /* Response+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Response+ObjectMapper.swift"; path = "Extension/Response+ObjectMapper.swift"; sourceTree = "<group>"; };
 		8C01E7AE1E8BB94D00696869 /* Observable+ObjectMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Observable+ObjectMapper.swift"; path = "Extension/Observable+ObjectMapper.swift"; sourceTree = "<group>"; };
-		8C01E7B31E8BC28000696869 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewController/ViewController.swift; sourceTree = "<group>"; };
 		8C01E7B51E8BC2AE00696869 /* UserListError.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = UserListError.json; path = Mock/UserListError.json; sourceTree = "<group>"; };
+		8C01E7B71E8BDB9700696869 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = Controller/ViewController.swift; sourceTree = "<group>"; };
 		902C5AF623138BD4A86D3F83 /* Pods-RxSwiftMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftMoya.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftMoya/Pods-RxSwiftMoya.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +92,7 @@
 		8C01E78D1E8B931D00696869 /* RxSwiftMoya */ = {
 			isa = PBXGroup;
 			children = (
-				8C01E7B01E8BC24000696869 /* ViewController */,
+				8C01E7B01E8BC24000696869 /* Controller */,
 				8C01E7AB1E8BB58500696869 /* Extension */,
 				8C01E7A61E8BACC800696869 /* Model */,
 				8C01E7A31E8BA2AD00696869 /* Mock */,
@@ -141,12 +141,12 @@
 			name = Extension;
 			sourceTree = "<group>";
 		};
-		8C01E7B01E8BC24000696869 /* ViewController */ = {
+		8C01E7B01E8BC24000696869 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8C01E7B31E8BC28000696869 /* ViewController.swift */,
+				8C01E7B71E8BDB9700696869 /* ViewController.swift */,
 			);
-			name = ViewController;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,7 +279,7 @@
 				8C01E7AA1E8BB42000696869 /* Status.swift in Sources */,
 				8C01E7AD1E8BB65D00696869 /* Response+ObjectMapper.swift in Sources */,
 				8C01E7AF1E8BB94D00696869 /* Observable+ObjectMapper.swift in Sources */,
-				8C01E7B41E8BC28000696869 /* ViewController.swift in Sources */,
+				8C01E7B81E8BDB9700696869 /* ViewController.swift in Sources */,
 				8C01E78F1E8B931D00696869 /* AppDelegate.swift in Sources */,
 				8C01E7A21E8B94EF00696869 /* UserAPI.swift in Sources */,
 			);

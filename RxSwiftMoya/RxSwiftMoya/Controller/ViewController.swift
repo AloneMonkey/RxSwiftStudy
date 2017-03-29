@@ -8,10 +8,13 @@
 
 import UIKit
 import RxSwift
+import RxCocoa
 import Moya_ObjectMapper
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var click: UIButton!
+    
     let disposeBag = DisposeBag()
     
     override func viewDidLoad() {
