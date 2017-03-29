@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftMoya' do
+
+pod 'Moya/RxSwift'
+pod 'Moya-ObjectMapper/RxSwift'
+
+end

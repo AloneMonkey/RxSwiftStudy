@@ -15,4 +15,6 @@
 
 * [RxSwift学习之旅 - UITableView操作](http://www.alonemonkey.com/2017/03/29/rxswift-part-seven/)
 
+* [RxSwift学习之旅 - Moya + ObjectMapper](http://www.alonemonkey.com/2017/03/30/rxswift-part-eight/)
+
 更新中......
