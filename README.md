@@ -17,6 +17,6 @@
 
 * [RxSwift学习之旅 - Moya + ObjectMapper](http://www.alonemonkey.com/2017/03/30/rxswift-part-eight/)
 
-* [使用Result传递Error](http://www.alonemonkey.com/2017/03/31/rxswift-part-nine/)
+* [RxSwift学习之旅 - 使用Result传递Error](http://www.alonemonkey.com/2017/03/31/rxswift-part-nine/)
 
 更新中......
