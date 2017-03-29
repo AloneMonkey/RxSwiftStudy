@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'RxSwiftResult' do
+
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxSwiftExt'
+
+end
