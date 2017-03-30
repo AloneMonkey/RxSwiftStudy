@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RxSwiftTwoWayBinding" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="UITextField" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="eKI-f1-jmn">
+                                <rect key="frame" x="112.5" y="120" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="kgg-H0-Q8d"/>
+                                    <constraint firstAttribute="width" constant="150" id="nco-Wl-Rfs"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UILabel" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d5K-Tr-yAL">
+                                <rect key="frame" x="112" y="270" width="150" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="sfk-NP-7l5"/>
+                                    <constraint firstAttribute="height" constant="50" id="yMt-ut-7wf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="UITextView" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ybR-TA-1a7">
+                                <rect key="frame" x="87" y="420" width="200" height="100"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="FRJ-vY-CgB"/>
+                                    <constraint firstAttribute="width" constant="200" id="moX-kU-gy6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d5K-Tr-yAL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0X8-ul-ZGM"/>
+                            <constraint firstItem="ybR-TA-1a7" firstAttribute="top" secondItem="d5K-Tr-yAL" secondAttribute="bottom" constant="100" id="1I0-K3-MDI"/>
+                            <constraint firstItem="d5K-Tr-yAL" firstAttribute="top" secondItem="eKI-f1-jmn" secondAttribute="bottom" constant="100" id="4C8-Zf-DhO"/>
+                            <constraint firstItem="ybR-TA-1a7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Akh-la-7Ey"/>
+                            <constraint firstItem="eKI-f1-jmn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="100" id="GUL-57-Qls"/>
+                            <constraint firstItem="eKI-f1-jmn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TYO-6p-r7F"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="label" destination="d5K-Tr-yAL" id="fDp-l5-qcS"/>
+                        <outlet property="textfield" destination="eKI-f1-jmn" id="3BW-1i-5WB"/>
+                        <outlet property="textview" destination="ybR-TA-1a7" id="Wzy-Rz-EdE"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

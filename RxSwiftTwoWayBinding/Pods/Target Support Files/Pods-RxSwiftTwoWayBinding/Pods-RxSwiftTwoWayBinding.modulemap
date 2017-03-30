@@ -1,0 +1,6 @@
+framework module Pods_RxSwiftTwoWayBinding {
+  umbrella header "Pods-RxSwiftTwoWayBinding-umbrella.h"
+
+  export *
+  module * { export * }
+}

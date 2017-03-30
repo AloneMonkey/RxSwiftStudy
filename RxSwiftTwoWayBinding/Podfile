@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftTwoWayBinding' do
+	
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end
