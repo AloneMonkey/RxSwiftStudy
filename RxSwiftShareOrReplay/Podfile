@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftShareOrReplay' do
+
+pod 'RxSwift'
+pod 'RxCocoa'
+
+end
