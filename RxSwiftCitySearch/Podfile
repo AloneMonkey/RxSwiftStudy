@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'RxSwiftSearch' do
+	
+pod 'RxSwift'
+pod 'RxCocoa'
+pod 'RxDataSources'
+
+end

@@ -23,4 +23,6 @@
 
 * [RxSwift学习之旅 - share vs replay vs shareReplay](http://www.alonemonkey.com/2017/04/02/rxswift-part-eleven/)
 
+* [RxSwift学习之旅 - 城市搜索](http://www.alonemonkey.com/2017/04/05/rxswift-part-twelve/)
+
 更新中......
