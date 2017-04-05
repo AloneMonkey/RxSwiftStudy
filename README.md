@@ -21,4 +21,6 @@
 
 * [RxSwift学习之旅 - 双向绑定](http://www.alonemonkey.com/2017/04/01/rxswift-part-ten/)
 
+* [RxSwift学习之旅 - share vs replay vs shareReplay](http://www.alonemonkey.com/2017/04/02/rxswift-part-eleven/)
+
 更新中......
