@@ -1,6 +1,0 @@
-framework module Pods_RxSwiftResult {
-  umbrella header "Pods-RxSwiftResult-umbrella.h"
-
-  export *
-  module * { export * }
-}
