@@ -1,0 +1,8 @@
+use_frameworks!
+
+target 'RxSwiftMultithreading' do
+
+pod 'RxAlamofire/RxCocoa'
+pod 'ObjectMapper'
+
+end

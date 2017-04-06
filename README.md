@@ -25,4 +25,6 @@
 
 * [RxSwift学习之旅 - 城市搜索](http://www.alonemonkey.com/2017/04/05/rxswift-part-twelve/)
 
+* [RxSwift学习之旅 - 多线程调度](http://www.alonemonkey.com/2017/04/06/rxswift-part-thirteen/)
+
 更新中......
