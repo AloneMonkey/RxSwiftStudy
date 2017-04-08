@@ -52,7 +52,7 @@ extension UserAPI : TargetType{
     var sampleData: Data{
         switch self {
         case .list(_, _):
-            if let path = Bundle.main.path(forResource: "UserListError", ofType: "json") {
+            if let path = Bundle.main.path(forResource: "UserList", ofType: "json") {
                 do {
                     let data = try Data(contentsOf: URL(fileURLWithPath: path), options: .alwaysMapped)
                     return data
