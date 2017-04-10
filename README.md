@@ -29,4 +29,6 @@
 
 * [RxSwift学习之旅 - Action](http://www.alonemonkey.com/2017/04/08/rxswift-part-fourteen/)
 
+* [RxSwift学习之旅 - RxGesture](http://www.alonemonkey.com/2017/04/10/rxswift-part-fifteen/)
+
 更新中......
