@@ -10,7 +10,7 @@ import UIKit
 import RxCocoa
 import RxSwift
 
-class LoginViewController: UIViewController {
+class RegisterViewController: UIViewController {
 
     @IBOutlet weak var username: UITextField!
     @IBOutlet weak var usernameValidation: UILabel!
@@ -29,7 +29,7 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let viewModel = LoginViewModel(input:(
+        let viewModel = RegisterViewModel(input:(
             username: username.rx.text.orEmpty.asObservable(),
             password: password.rx.text.orEmpty.asObservable(),
             repeatedPassword: repoatedPassword.rx.text.orEmpty.asObservable(),

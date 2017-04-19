@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12118" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Login View Controller-->
+        <!--Register View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="RxSwiftRegister" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="RegisterViewController" customModule="RxSwiftRegister" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -129,14 +129,14 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="password" destination="ZFO-Ve-Chm" id="Ti7-w5-ukp"/>
-                        <outlet property="passwordValidation" destination="zsp-I6-a4G" id="QtI-cF-DKW"/>
-                        <outlet property="register" destination="kfv-bt-FOV" id="tLI-YX-ZzK"/>
+                        <outlet property="password" destination="ZFO-Ve-Chm" id="WBj-9Y-V9g"/>
+                        <outlet property="passwordValidation" destination="zsp-I6-a4G" id="Tlr-vp-jor"/>
+                        <outlet property="register" destination="kfv-bt-FOV" id="o2n-9C-ogR"/>
                         <outlet property="registerIndicator" destination="Uh0-fA-0f5" id="gUc-Pi-eQd"/>
-                        <outlet property="repeatedPasswordValidation" destination="anb-ec-th4" id="JnC-vg-w5V"/>
-                        <outlet property="repoatedPassword" destination="pVf-pM-RUN" id="gep-jp-3pq"/>
-                        <outlet property="username" destination="xun-df-QgE" id="1d6-tT-Z4s"/>
-                        <outlet property="usernameValidation" destination="GA3-KT-sJd" id="vjA-ay-3hK"/>
+                        <outlet property="repeatedPasswordValidation" destination="anb-ec-th4" id="JQ3-D9-Kfa"/>
+                        <outlet property="repoatedPassword" destination="pVf-pM-RUN" id="LpU-W0-Z4X"/>
+                        <outlet property="username" destination="xun-df-QgE" id="Zi4-qc-mFR"/>
+                        <outlet property="usernameValidation" destination="GA3-KT-sJd" id="K0C-rm-Tmk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -8,7 +8,7 @@
 
 import RxSwift
 
-class LoginViewModel {
+class RegisterViewModel {
     let validatedUsername: Observable<ValidationResult>
     let validatedPassword: Observable<ValidationResult>
     let validatedPasswordRepeated: Observable<ValidationResult>

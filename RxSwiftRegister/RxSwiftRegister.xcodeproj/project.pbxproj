@@ -12,12 +12,12 @@
 		8C5601AB1E87EFE8006914CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5601A91E87EFE8006914CF /* Main.storyboard */; };
 		8C5601AD1E87EFE8006914CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C5601AC1E87EFE8006914CF /* Assets.xcassets */; };
 		8C5601B01E87EFE8006914CF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C5601AE1E87EFE8006914CF /* LaunchScreen.storyboard */; };
-		8C5601BA1E87FC7F006914CF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601B91E87FC7F006914CF /* LoginViewController.swift */; };
-		8C5601BC1E87FD3D006914CF /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */; };
+		8C5601BA1E87FC7F006914CF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601B91E87FC7F006914CF /* RegisterViewController.swift */; };
+		8C5601BC1E87FD3D006914CF /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C5601BB1E87FD3D006914CF /* RegisterViewModel.swift */; };
 		8C9D3B241E8821B4009470F0 /* ValidationResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D3B231E8821B4009470F0 /* ValidationResult.swift */; };
-		8C9D3B2A1E89259F009470F0 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D3B291E89259F009470F0 /* GitHubAPI.swift */; };
 		8C9D3B2D1E8926DB009470F0 /* String+URL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D3B2C1E8926DB009470F0 /* String+URL.swift */; };
 		8C9D3B301E8939FB009470F0 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9D3B2F1E8939FB009470F0 /* ActivityIndicator.swift */; };
+		8CA2F4751EA754ED00CBAE64 /* GitHubAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA2F4741EA754ED00CBAE64 /* GitHubAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,12 +27,12 @@
 		8C5601AC1E87EFE8006914CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C5601AF1E87EFE8006914CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C5601B11E87EFE8006914CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8C5601B91E87FC7F006914CF /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = Controller/LoginViewController.swift; sourceTree = "<group>"; };
-		8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewModel.swift; path = ViewModel/LoginViewModel.swift; sourceTree = "<group>"; };
+		8C5601B91E87FC7F006914CF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewController.swift; path = Controller/RegisterViewController.swift; sourceTree = "<group>"; };
+		8C5601BB1E87FD3D006914CF /* RegisterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RegisterViewModel.swift; path = ViewModel/RegisterViewModel.swift; sourceTree = "<group>"; };
 		8C9D3B231E8821B4009470F0 /* ValidationResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidationResult.swift; path = Model/ValidationResult.swift; sourceTree = "<group>"; };
-		8C9D3B291E89259F009470F0 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubAPI.swift; path = Network/Login/GitHubAPI.swift; sourceTree = "<group>"; };
 		8C9D3B2C1E8926DB009470F0 /* String+URL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "String+URL.swift"; path = "Extension/String+URL.swift"; sourceTree = "<group>"; };
 		8C9D3B2F1E8939FB009470F0 /* ActivityIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityIndicator.swift; path = Service/ActivityIndicator.swift; sourceTree = "<group>"; };
+		8CA2F4741EA754ED00CBAE64 /* GitHubAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GitHubAPI.swift; path = Network/Register/GitHubAPI.swift; sourceTree = "<group>"; };
 		A500396C63B4252B52A6C758 /* Pods-RxSwiftRegister.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRegister.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftRegister/Pods-RxSwiftRegister.debug.xcconfig"; sourceTree = "<group>"; };
 		C13E8898E9782A770E989D8A /* Pods-RxSwiftRegister.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftRegister.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftRegister/Pods-RxSwiftRegister.release.xcconfig"; sourceTree = "<group>"; };
 		DD563F892017AB7CC968EE45 /* Pods_RxSwiftRegister.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftRegister.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,7 +106,7 @@
 		8C5601B71E87FC54006914CF /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8C5601B91E87FC7F006914CF /* LoginViewController.swift */,
+				8C5601B91E87FC7F006914CF /* RegisterViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -114,7 +114,7 @@
 		8C5601B81E87FC5A006914CF /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				8C5601BB1E87FD3D006914CF /* LoginViewModel.swift */,
+				8C5601BB1E87FD3D006914CF /* RegisterViewModel.swift */,
 			);
 			name = ViewModel;
 			sourceTree = "<group>";
@@ -130,17 +130,17 @@
 		8C9D3B251E892569009470F0 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				8C9D3B261E892573009470F0 /* Login */,
+				8C9D3B261E892573009470F0 /* Register */,
 			);
 			name = Network;
 			sourceTree = "<group>";
 		};
-		8C9D3B261E892573009470F0 /* Login */ = {
+		8C9D3B261E892573009470F0 /* Register */ = {
 			isa = PBXGroup;
 			children = (
-				8C9D3B291E89259F009470F0 /* GitHubAPI.swift */,
+				8CA2F4741EA754ED00CBAE64 /* GitHubAPI.swift */,
 			);
-			name = Login;
+			name = Register;
 			sourceTree = "<group>";
 		};
 		8C9D3B2B1E892692009470F0 /* Extension */ = {
@@ -283,12 +283,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C5601BA1E87FC7F006914CF /* LoginViewController.swift in Sources */,
+				8C5601BA1E87FC7F006914CF /* RegisterViewController.swift in Sources */,
 				8C5601A61E87EFE8006914CF /* AppDelegate.swift in Sources */,
 				8C9D3B2D1E8926DB009470F0 /* String+URL.swift in Sources */,
-				8C5601BC1E87FD3D006914CF /* LoginViewModel.swift in Sources */,
+				8C5601BC1E87FD3D006914CF /* RegisterViewModel.swift in Sources */,
 				8C9D3B301E8939FB009470F0 /* ActivityIndicator.swift in Sources */,
-				8C9D3B2A1E89259F009470F0 /* GitHubAPI.swift in Sources */,
+				8CA2F4751EA754ED00CBAE64 /* GitHubAPI.swift in Sources */,
 				8C9D3B241E8821B4009470F0 /* ValidationResult.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
