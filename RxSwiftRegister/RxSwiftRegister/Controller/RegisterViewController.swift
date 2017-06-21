@@ -37,19 +37,19 @@ class RegisterViewController: UIViewController {
         ))
         
         register.rx.tap.asObservable()
-            .bindTo(viewModel.registerTap)
+            .bind(to: viewModel.registerTap)
             .disposed(by: disposeBag)
         
         viewModel.validatedUsername
-            .bindTo(usernameValidation.rx.validationResult)
+            .bind(to: usernameValidation.rx.validationResult)
             .disposed(by: disposeBag)
         
         viewModel.validatedPassword
-            .bindTo(passwordValidation.rx.validationResult)
+            .bind(to: passwordValidation.rx.validationResult)
             .disposed(by: disposeBag)
         
         viewModel.validatedPasswordRepeated
-            .bindTo(repeatedPasswordValidation.rx.validationResult)
+            .bind(to: repeatedPasswordValidation.rx.validationResult)
             .disposed(by: disposeBag)
         
         viewModel.registerEnabled.subscribe(
@@ -61,7 +61,7 @@ class RegisterViewController: UIViewController {
         ).disposed(by: disposeBag)
         
         viewModel.registering
-            .bindTo(registerIndicator.rx.isAnimating)
+            .bind(to: registerIndicator.rx.isAnimating)
             .disposed(by: disposeBag)
         
         viewModel.registered.subscribe(
@@ -95,7 +95,7 @@ class RegisterViewController: UIViewController {
             .disposed(by: disposeBag)
         
         repoatedPassword.rx.controlEvent(.editingDidEndOnExit)
-            .bindTo(viewModel.registerTap)
+            .bind(to: viewModel.registerTap)
             .disposed(by: disposeBag)
     }
     
