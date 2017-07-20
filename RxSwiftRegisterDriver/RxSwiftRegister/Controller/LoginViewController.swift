@@ -95,7 +95,7 @@ class LoginViewController: UIViewController {
             .disposed(by: disposeBag)
         
         repoatedPassword.rx.controlEvent(.editingDidEnd)
-            .bindTo(viewModel.registerTap)
+            .bind(to: viewModel.registerTap)
             .disposed(by: disposeBag)
     }
     
