@@ -33,12 +33,7 @@
 
 更新中......
 
-<a href="https://hotrepo.ai/zh/AloneMonkey/RxSwiftStudy?utm_source=github-readme&utm_medium=badge">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/trending-badge.svg?lang=zh&theme=dark">
-    <img alt="AloneMonkey/RxSwiftStudy 的 GitHub Trending 徽章" src="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/trending-badge.svg?lang=zh" height="56">
-  </picture>
-</a>
+[![AloneMonkey/RxSwiftStudy 的 GitHub Trending 徽章](https://hotrepo.ai/AloneMonkey/RxSwiftStudy/trending-badge.svg?lang=zh)](https://hotrepo.ai/zh/AloneMonkey/RxSwiftStudy?utm_source=github-readme&utm_medium=badge)
 
 <a href="https://hotrepo.ai/zh/AloneMonkey/RxSwiftStudy?utm_source=github-readme&utm_medium=chart">
   <picture>
