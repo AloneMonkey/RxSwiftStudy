@@ -32,3 +32,17 @@
 * [RxSwift学习之旅 - RxGesture](http://www.alonemonkey.com/2017/04/10/rxswift-part-fifteen/)
 
 更新中......
+
+<a href="https://hotrepo.ai/zh/AloneMonkey/RxSwiftStudy?utm_source=github-readme&utm_medium=badge">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/trending-badge.svg?lang=zh&theme=dark">
+    <img alt="AloneMonkey/RxSwiftStudy 的 GitHub Trending 徽章" src="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/trending-badge.svg?lang=zh" height="56">
+  </picture>
+</a>
+
+<a href="https://hotrepo.ai/zh/AloneMonkey/RxSwiftStudy?utm_source=github-readme&utm_medium=chart">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/star-history.svg?lang=zh&theme=dark">
+    <img alt="AloneMonkey/RxSwiftStudy 的 Star 增长" src="https://hotrepo.ai/AloneMonkey/RxSwiftStudy/star-history.svg?lang=zh">
+  </picture>
+</a>
